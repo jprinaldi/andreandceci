@@ -22,7 +22,6 @@ h1 {
 }
 
 h2, h3 {
-  font-family: 'Parisienne', cursive;
   font-size: 32px;
 }
 
@@ -43,6 +42,12 @@ section.row:nth-child(odd) {
 
 section.row:nth-child(even) {
   background: blanchedalmond;
+}
+
+section#home {
+  h2, h3 {
+  font-family: 'Parisienne', cursive;
+  }
 }
 
 section#travel .fa {

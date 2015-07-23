@@ -21,13 +21,90 @@
 
 en:
   title: "André and Ceci"
-  ceremony_title: "Ceremony"
-  ceremony_body: ""
-  reception_title: "Reception"
-  reception_body: ""
-  travel_title: "Travel"
-  travel_body: ""
-  registry_title: "Registry"
-  registry_body: "Your presence in our lives and at our wedding is our gift. We need nothing else. However, if you want to give us a present for our new home, we have set up the following registries. Thank you so much!"
-  rsvp_title: "RSVP"
-  rsvp_body: "Please tell us if you are coming by December 5, 2015 so we can accommodate you."
+  
+  ceremony:
+    title: "Ceremony"
+    body: ""
+  
+  reception:
+    title: "Reception"
+    body: "Punta Barranca is a charming venue by the Paraná River, with a garden and a view to the Rosario-Victoria Bridge."
+
+  travel:
+    title: "Travel"
+    fly:
+      first: "“Islas Malvinas” is Rosario’s international airport, located 13 km/25 minutes away from downtown Rosario. Connections usually route through Buenos Aires (Ezeiza and Aeroparque) and Córdoba (Pajas Blancas) in Argentina, and São Paulo (Guarulhos) in Brazil."
+      second: "Nationals of %{most_foreign_countries} do not need a visa if visiting Argentina for less than 90 days. Please note, however, that U.S., Canadian and Australian citizens must pay a %{reciprocity_fee} before traveling."
+      third: "We recommend that you use a private taxi to reach the hotel from the airport. Look for Traslado Exclusivo on the main hall of the airport."
+
+    stay:
+      first: "We negotiated great rates for our guests at Puerto Norte Hotel, a five-star hotel located by the Paraná River, a location central to both the city’s offerings and the wedding. To book, please write to Paola Alegrechy at reservas@puertonortehotel.com, and mention “Casamiento Cecilia y André”."
+      second: "All room rates include free breakfast and wi fi, and access to spa, solarium and pool (if booked before Sep. 30, 2015):"
+      room_rates:
+        parana_city_double_single:
+          term: "Paraná City (double/single)"
+          definition: "USD 115 per night for two nights; or USD 125 per night for one night (+ tax)"
+        parana_executive_double_single:
+          term: "Paraná Executive (double/single)"
+          definition: "USD 135 per night for two nights; or USD 145 per night for one night (+ tax)"
+        parana_executive_triple:
+          term: "Paraná Executive (triple)"
+          definition: "USD 165 per night for two nights; or USD 175 per night for one night (+ tax)"
+        parana_premium_double_single:
+          term: "Paraná Premium (double/single)"
+          definition: "USD 165 per night for two nights; or USD 175 per night for one night (+ tax)"
+        parana_suite_double_single:
+          term: "Paraná Suite (double/single)"
+          definition: "USD 185 per night for two nights; or USD 195 per night for one night (+ tax)"
+
+    explore: "Rosario is the third largest city in Argentina, tucked into a bend of the Paraná River 300 km northwest of Buenos Aires. Begin your day with a walk on the riverbank and a coffee at %{rio_mio}. Visit the national %{flag_memorial} and take the elevator up for a great view of the city. Have a delicious steak at %{don_ferro}, built on an old railway station, or parrilla %{la_estancia}, frequented by Lionel Messi. Bike or jog in %{parque_de_espana}, or stock up on leather goods in %{alto_rosario}. When the sun sets, take a stroll down %{boulevard_orono}, a two-way street bustling with restaurants, upscale buildings and traditional houses. To cap your night, stop by %{rock_and_fellers} to enjoy great food, drinks, and atmosphere."
+
+  registry:
+    title: "Registry"
+    intro: "Your presence in our lives and at our wedding is our gift. However, if you want to give us a present for our new home, we have set up a registry in %{crate_and_barrel}."
+    bank_info: "In case it’s more convenient for you, we have also opened accounts in Brazil and Argentina. Please include your name in the purpose of the transfer so we can thank you for your gift!"
+    thanks: "Thank you so much!"
+    
+  brazil_account:
+    account_holder_term: "Account Holder"
+    account_holder_description: "André Thiollier"
+    bank_term: "Bank"
+    bank_description: "HSBC Bank Brasil S/A"
+    branch_number_term: "Branch Number"
+    branch_number_description: "2005"
+    account_number_term: "Account Number"
+    account_number_description: "00094-72"
+    type_of_account_term: "Type of Account"
+    type_of_account_description: "Conta Corrente"
+    cpf_term: "CPF"
+    cpf_description: "219.610.028-50"
+
+  rsvp:
+    title: "RSVP"
+    body: "Please tell us if you are coming by completing the form below, or by contacting Laura Castro (laura@barbaradiez.com or +54 (11) 4804 3186). Also, please fill out your contact information so we can send our invitations to you!"
+
+  links:
+    most_foreign_countries:
+      text: "most foreign countries"
+      href: "http://cnyor.mrecic.gov.ar/en/node/1816"
+    reciprocity_fee:
+      text: "reciprocity fee"
+      href: "http://cnyor.mrecic.gov.ar/en/content/reciprocity-fee-us-canadian-and-australian-citizens-online-payment"
+    rio_mio_text: "Río Mío"
+    rio_mio_href: "http://www.puertoespana.com.ar/online/riomio/"
+    flag_memorial_text: "Flag Memorial"
+    flag_memorial_href: "http://www.monumentoalabandera.gob.ar/"
+    don_ferro_text: "Don Ferro"
+    don_ferro_href: "http://www.puertoespana.com.ar/online/donferro/"
+    la_estancia_text: "La Estancia"
+    la_estancia_href: "http://www.parrillalaestancia.com.ar/"
+    parque_de_espana_text: "Parque de España"
+    parque_de_espana_href: "http://en.wikipedia.org/wiki/Parque_de_España"
+    alto_rosario_text: "Alto Rosario"
+    alto_rosario_href: "http://www.alto-rosario.com.ar/"
+    boulevard_orono_text: "Boulevard Oroño"
+    boulevard_orono_href: "http://en.wikipedia.org/wiki/Oroño_Boulevard"
+    rock_and_fellers_text: "Rock & Feller's"
+    rock_and_fellers_href: "http://www.rockandfellers.com.ar/"
+    crate_and_barrel_text: "Crate & Barrel"
+    crate_and_barrel_href: "http://www.crateandbarrel.com/gift-registry/cecilia-rinaldi-and-andre-thiollier/r5386947"

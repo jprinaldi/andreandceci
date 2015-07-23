@@ -1,7 +1,9 @@
 class RSVPForm < MailForm::Base
-  attribute :name, validate: true
   attribute :guest_count, validate: true
-  attribute :song_request, validate: true
+  attribute :guest_names, validate: true
+  attribute :food_restrictions
+  attribute :home_address, validate: true
+  attribute :phone, validate: true
 
   # Declare the e-mail headers. It accepts anything the mail method
   # in ActionMailer accepts.
