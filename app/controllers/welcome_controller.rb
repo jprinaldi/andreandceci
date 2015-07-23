@@ -12,6 +12,6 @@ class WelcomeController < ApplicationController
   private
   
   def form_params
-    params.require(:rsvp_form).permit(:guest_count, :guest_names, :food_restrictions)
+    params.require(:rsvp_form).permit(:guest_count, :guest_names, :food_restrictions, :home_address, :phone)
   end
 end
