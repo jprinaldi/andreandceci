@@ -1,0 +1,136 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  position: relative;
+  color: #725a29;
+}
+
+ul.f32 li {
+  padding-left: 10px;
+}
+
+section {
+  padding-top: 50px;
+  min-height: 800px;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 64px;
+}
+
+h2, h3 {
+  font-family: 'Parisienne', cursive;
+  font-size: 32px;
+}
+
+p {
+  font-family: 'Open Sans', cursive;
+  font-size: 16px;
+}
+
+section.row {
+  border-bottom: 2px solid #d0bd98;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+section.row:nth-child(odd) {
+  background: antiquewhite;
+}
+
+section.row:nth-child(even) {
+  background: blanchedalmond;
+}
+
+section#travel .fa {
+  font-size: 32px;
+}
+
+section#travel section {
+  margin-bottom: 20px;
+}
+
+img {
+  border: 5px solid #8a744a;
+}
+
+.input-group-addon {
+  background: #fbeed4;
+  color: #8a744a;
+  border-color: #d0bd98;
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}
+
+.navbar-default {
+  background-color: #fbeed4;
+  border-color: #d0bd98;
+}
+.navbar-default .navbar-brand {
+  color: #8a744a;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #725a29;
+}
+.navbar-default .navbar-text {
+  color: #8a744a;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #8a744a;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #725a29;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #725a29;
+  background-color: #d0bd98;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #725a29;
+  background-color: #d0bd98;
+}
+.navbar-default .navbar-toggle {
+  border-color: #d0bd98;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #d0bd98;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #8a744a;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #8a744a;
+}
+.navbar-default .navbar-link {
+  color: #8a744a;
+}
+.navbar-default .navbar-link:hover {
+  color: #725a29;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #8a744a;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #725a29;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #725a29;
+    background-color: #d0bd98;
+  }
+}

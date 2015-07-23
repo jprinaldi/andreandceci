@@ -1,0 +1,157 @@
+<ul class="list-inline f32">
+  <li><%= link_to '', root_path(locale: :en), { class: "flag gb" } %></li>
+  <li><%= link_to '', root_path(locale: :es), { class: "flag es" } %></li>
+  <li><%= link_to '', root_path(locale: :pt), { class: "flag pt" } %></li>
+</ul>
+
+<!-- OLD CODE BELOW -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#home"><i class="fa fa-heart"></i></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav main-sections">
+        <li><a href="#story"><i class="fa fa-book fa-fw"></i> Our Story</a></li>
+        <li><a href="#ceremony"><i class="fa fa-heart fa-fw"></i> Ceremony</a></li>
+        <li><a href="#reception"><i class="fa fa-glass fa-fw"></i> Reception</a></li>
+        <li><a href="#travel"><i class="fa fa-suitcase fa-fw"></i> Travel</a></li>
+        <li><a href="#registry"><i class="fa fa-gift fa-fw"></i> Registry</a></li>
+        <li><a href="#rsvp"><i class="fa fa-envelope fa-fw"></i> RSVP</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Select language <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><%= link_to 'English', root_path(locale: :en) %></li>
+            <li class="flag es"><%= link_to 'Español', root_path(locale: :es) %></li>
+            <li class="flag pt"><%= link_to 'Português', root_path(locale: :pt) %></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+<div class="container-fluid">
+  <section id="home" class="row">
+    <div class="col-md-12 text-center">
+      <h1>André &amp; Ceci</h1>
+      <h2>are getting married</h2>
+      <h3><time datetime="2016-03-05">March 5, 2016</time> <i class="fa fa-heart"></i> Rosario, Argentina</h3>
+    </div>
+  </section>
+  <section id="story" class="row">
+    <div class="col-md-12 text-center">
+      <h1>Our Story</h1>
+      <h2>Coming soon...</h2>
+    </div>
+  </section>
+  <section id="ceremony" class="row">
+    <div class="col-md-12 text-center">
+      <h1>Ceremony</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/ceremony.jpg" alt="Ceremony" width="100%">
+        </div>
+        <div class="col-md-6">
+          <p>Parroquia San Ramón is a colonial-style Catholic church located in the neighborhood where Cecilia grew up.</p>
+          <p><time datetime="2016-03-05 18:00">6:00 PM on Saturday, March 5</time></p>
+          <p><a href="https://www.google.com.ar/maps/place/Punta+Lara+575,+Rosario,+Santa+Fe/@-32.8861015,-60.6929356,17z/data=!3m1!4b1!4m2!3m1!1s0x95b65399eeaaa42d:0x67be5900a91a6e30?hl=en" target="_blank">Punta Lara 575</a></p>
+          <p>Formal attire</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="reception" class="row">
+    <div class="col-md-12 text-center">
+      <h1>Reception</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Punta Barranca is a charming venue by the Paraná River, with a blooming garden and a wonderful view of the Rosario-Victoria Bridge.</p>
+          <p><time datetime="2016-03-05 19:00">7:00 PM on Saturday, March 5</time></p>
+          <p><a href="https://www.google.com.ar/maps/place/Av+Eduardo+Carrasco+3914,+Rosario,+Santa+Fe/@-32.8770532,-60.6879846,17z/data=!3m1!4b1!4m2!3m1!1s0x95b653925d6cfc39:0x7b69850a9295a672?hl=en" target="_blank">Av. Carrasco 3914</a></p>
+          <p>Formal attire</p>
+        </div>
+        <div class="col-md-6">
+          <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/reception.jpg" alt="Reception" width="100%">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="travel" class="row">
+    <div class="col-md-12 text-center">
+      <h1>Travel</h1>
+      <div class="row">
+        <section class="col-md-4">
+          <i class="fa fa-plane"></i>
+          <h2>Fly</h2>
+          <p>“Islas Malvinas” is Rosario’s international airport, located 13 km/25 minutes away from downtown Rosario. Connections usually route through Buenos Aires (Ezeiza and Aeroparque) and Córdoba (Pajas Blancas) in Argentina, and São Paulo (Guarulhos) in Brazil.</p>
+          <p>Nationals of <a href="http://cnyor.mrecic.gov.ar/en/node/1816" target="_blank">most foreign countries</a> do not need a visa if visiting Argentina for less than 90 days. Please note, however, that U.S., Canadian and Australian citizens must pay a <a href="http://cnyor.mrecic.gov.ar/en/content/reciprocity-fee-us-canadian-and-australian-citizens-online-payment" target="_blank">reciprocity fee</a> before traveling.</p>
+        </section>
+        <section class="col-md-4">
+          <i class="fa fa-hotel"></i>
+          <h2>Stay</h2>
+          <p>We recommend you to stay at the <a href="http://www.puertonortehotel.com/?lang=en" target="_blank">Puerto Norte Hotel</a>, a four-star hotel located by the Paraná River, a location central to both the wedding events and the city’s offerings. We have negotiated a great rate package for our traveling guests. To book, please e-mail <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="cea7a0a8a18ebebbabbcbaa1a0a1bcbaaba6a1baaba2e0ada1a3">[email&#160;protected]</a><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script> and mention the code [XXX].</p>
+          <p>We recommend that you use a private taxi to reach the hotel from the airport. Look for Traslado Exclusivo on the main hall of the airport.</p>
+        </section>
+        <section class="col-md-4">
+          <i class="fa fa-map-marker"></i>
+          <h2>Explore</h2>
+          <p>Rosario is the third largest city in Argentina, tucked into a bend of the Paraná River 300 km northwest of Buenos Aires. Begin your day with a walk on the riverbank and a coffee at <a href="http://www.puertoespana.com.ar/online/riomio/">Río Mío</a>. Visit the <a href="http://www.monumentoalabandera.gob.ar/">national flag memorial</a> and take the elevator up for a great view of the city. Have a delicious steak at <a href="http://www.puertoespana.com.ar/online/donferro/">Don Ferro</a>, built on an old railway station, or <a href="http://www.parrillalaestancia.com.ar/">Parrilla La Estancia</a>, frequented by Lionel Messi. Bike or jog in <a href="http://en.wikipedia.org/wiki/Parque_de_España">Parque de España</a>, or stock up on leather goods in <a href="http://www.alto-rosario.com.ar/">Alto Rosario</a>. When the sun sets, take a stroll down <a href="http://en.wikipedia.org/wiki/Oroño_Boulevard">Boulevard Oroño</a>, a two-way street bustling with restaurants, upscale buildings and traditional houses. To cap your night, stop by <a href="http://www.rockandfellers.com.ar/">Rock &amp; Feller's</a> to enjoy great food, drinks, and atmosphere.</p>
+        </section>
+      </div>
+    </div>
+  </section>
+  <section id="registry" class="row">
+    <div class="col-md-12 text-center">
+      <h1>Registry</h1>
+      <p>Your presence in our lives and at our wedding is our gift. We need nothing else. However, if you want to give us a present for our new home, we have set up the following [coming soon] registries. Thank you so much!</p>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Pottery Barn</h2>
+        </div>
+        <div class="col-md-6">
+          <h2>Williams Sonoma</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="rsvp" class="row">
+    <div class="col-md-12 text-center">
+      <h1>RSVP</h1>
+      <p>Please tell us if you are coming by December 5, 2015 so we can accommodate you.</p>
+      <div class="row">
+        <div class="col-md-12">
+          <%= form_for @rsvp_form, url: root_path, method: :post do |f| %>
+            <div class="form-group">
+              <label class="sr-only" for="name">Name</label>
+              <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-user fa-fw"></i></div>
+                <%= f.text_field :name, required: true, class: "form-control", placeholder: "Your name" %>
+              </div>
+              <label class="sr-only" for="guest-count">Number of guests</label>
+              <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-user fa-fw"></i></div>
+                <%= f.number_field :guest_count, required: true, class: "form-control", placeholder: "Number of guests" %>
+              </div>
+              <label class="sr-only" for="song">Song request</label>
+              <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-music fa-fw"></i></div>
+                <%= f.text_field :song_request, required: true, class: "form-control", placeholder: "Song request" %>
+              </div>
+            </div>
+            <%= f.button "Send reply", class: "btn btn-default" %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

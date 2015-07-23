@@ -20,4 +20,14 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  title: "André and Ceci"
+  ceremony_title: "Ceremony"
+  ceremony_body: ""
+  reception_title: "Reception"
+  reception_body: ""
+  travel_title: "Travel"
+  travel_body: ""
+  registry_title: "Registry"
+  registry_body: "Your presence in our lives and at our wedding is our gift. We need nothing else. However, if you want to give us a present for our new home, we have set up the following registries. Thank you so much!"
+  rsvp_title: "RSVP"
+  rsvp_body: "Please tell us if you are coming by December 5, 2015 so we can accommodate you."
