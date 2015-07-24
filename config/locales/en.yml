@@ -24,11 +24,21 @@ en:
   
   ceremony:
     title: "Ceremony"
-    body: ""
+    body: "Parroquia San Ramón is a colonial-style Catholic church located in the neighborhood where Ceci grew up."
+    datetime: "5:45 PM on Saturday, March 5"
+    location:
+      name: "Parroquia San Ramón"
+      address: "Punta Lara 575"
+    attire: "Formal attire"
   
   reception:
     title: "Reception"
-    body: "Punta Barranca is a charming venue by the Paraná River, with a garden and a view to the Rosario-Victoria Bridge."
+    body: "Punta Barranca is located by the Paraná River, with a garden and a view to the Rosario-Victoria Bridge."
+    datetime: "7:00 PM on Saturday, March 5"
+    location:
+      name: "Punta Barranca"
+      address: "Av. Carrasco 3914"
+    attire: "Formal attire"
 
   travel:
     title: "Travel"
@@ -81,7 +91,10 @@ en:
 
   rsvp:
     title: "RSVP"
-    body: "Please tell us if you are coming by completing the form below, or by contacting Laura Castro (laura@barbaradiez.com or +54 (11) 4804 3186). Also, please fill out your contact information so we can send our invitations to you!"
+    body: "Please tell us if you are coming by completing the form below, or by contacting Laura Castro (%{email_laura_castro} or +54 11 4804 3186). Also, please fill out your contact information so we can send our invitations to you!"
+
+  emails:
+    laura_castro: "laura@barbaradiez.com"
 
   links:
     most_foreign_countries:
