@@ -4,6 +4,7 @@
 
 $(document).ready ->
   'use strict'
+  $('[data-toggle="tooltip"]').tooltip()
   $('.main-sections a, .navbar-brand').click (e) ->
     e.preventDefault()
     # Collapse navbar when clicking on any link

@@ -1,4 +1,45 @@
 es:
   title: "André y Ceci"
-  ceremony_title: "Ceremonia"
-  ceremony_body: ""
+
+  sections:
+    ceremony:
+      name: "Ceremonia"
+      body: ""
+      datetime: ""
+      location:
+        name: ""
+        address: ""
+      attire: ""
+
+    reception:
+      name: "Fiesta"
+      body: ""
+      datetime: ""
+      location:
+        address: ""
+      attire: ""
+
+    fly:
+      name: ""
+      first: ""
+      second: ""
+      third: ""
+
+    stay:
+      name: ""
+      first: ""
+      second: ""
+
+    explore:
+      name: "Explorá"
+      first: ""
+      second: ""
+
+    registry:
+      name: ""
+      intro: ""
+      bank_info: ""
+
+    rsvp:
+      name: "RSVP"
+      body: ""

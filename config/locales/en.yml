@@ -22,33 +22,34 @@
 en:
   title: "André and Ceci"
   
-  ceremony:
-    title: "Ceremony"
-    body: "Parroquia San Ramón is a colonial-style Catholic church located in the neighborhood where Ceci grew up."
-    datetime: "5:45 PM on Saturday, March 5"
-    location:
-      name: "Parroquia San Ramón"
-      address: "Punta Lara 575"
-    attire: "Formal attire"
-  
-  reception:
-    title: "Reception"
-    body: "Punta Barranca is located by the Paraná River, with a garden and a view to the Rosario-Victoria Bridge."
-    datetime: "7:00 PM on Saturday, March 5"
-    location:
-      name: "Punta Barranca"
-      address: "Av. Carrasco 3914"
-    attire: "Formal attire"
+  sections:
+    ceremony:
+      name: "Ceremony"
+      body: "Parroquia San Ramón is a colonial-style Catholic church located in the neighborhood where Ceci grew up."
+      datetime: "5:45 PM on Saturday, March 5"
+      location:
+        name: "Parroquia San Ramón"
+        address: "Punta Lara 575"
+      attire: "Formal attire"
 
-  travel:
-    title: "Travel"
+    reception:
+      name: "Reception"
+      body: "Punta Barranca is located by the Paraná River, with a garden and a view to the Rosario-Victoria Bridge."
+      datetime: "7:00 PM on Saturday, March 5"
+      location:
+        name: "Punta Barranca"
+        address: "Av. Carrasco 3914"
+      attire: "Formal attire"
+
     fly:
+      name: "Fly"
       first: "“Islas Malvinas” is Rosario’s international airport, located 13 km/25 minutes away from downtown Rosario. Connections usually route through Buenos Aires (Ezeiza and Aeroparque) and Córdoba (Pajas Blancas) in Argentina, and São Paulo (Guarulhos) in Brazil."
       second: "Nationals of %{most_foreign_countries} do not need a visa if visiting Argentina for less than 90 days. Please note, however, that U.S., Canadian and Australian citizens must pay a %{reciprocity_fee} before traveling."
       third: "We recommend that you use a private taxi to reach the hotel from the airport. Look for Traslado Exclusivo on the main hall of the airport."
 
     stay:
-      first: "We negotiated great rates for our guests at Puerto Norte Hotel, a five-star hotel located by the Paraná River, a location central to both the city’s offerings and the wedding. To book, please write to Paola Alegrechy at reservas@puertonortehotel.com, and mention “Casamiento Cecilia y André”."
+      name: "Stay"
+      first: "We negotiated great rates for our guests at Puerto Norte Hotel, a five-star hotel located by the Paraná River, a location central to both the city’s offerings and the wedding. To book, please call or write to Paola Alegrechy (%{email_puerto_norte}, +54 341 436-2700), and mention “Casamiento Cecilia y André”."
       second: "All room rates include free breakfast and wi fi, and access to spa, solarium and pool (if booked before Sep. 30, 2015):"
       room_rates:
         parana_city_double_single:
@@ -66,37 +67,66 @@ en:
         parana_suite_double_single:
           term: "Paraná Suite (double/single)"
           definition: "USD 185 per night for two nights; or USD 195 per night for one night (+ tax)"
+      tax_info: "Please note that tax in Argentina is 21%."
 
     explore:
+      name: "Explore"
       first: "Rosario is the third largest city in Argentina, tucked into a bend of the Paraná River 300 km northwest of Buenos Aires."
       second: "Begin your day with a walk on the riverbank and a coffee at %{rio_mio}. Visit the national %{flag_memorial} and take the elevator up for a great view of the city. Have a delicious steak at %{don_ferro}, built on an old railway station, or parrilla %{la_estancia}, frequented by Lionel Messi. Bike or jog in %{parque_de_espana}, or stock up on leather goods in %{alto_rosario}. When the sun sets, take a stroll down %{boulevard_orono}, a two-way street bustling with restaurants, upscale buildings and traditional houses. To cap your night, stop by %{rock_and_fellers} to enjoy great food, drinks, and atmosphere."
 
-  registry:
-    title: "Registry"
-    intro: "Your presence in our lives and at our wedding is our gift. However, if you want to give us a present for our new home, we have set up a registry in %{crate_and_barrel}."
-    bank_info: "In case it’s more convenient for you, we have also opened accounts in Brazil and Argentina. Please include your name in the purpose of the transfer so we can thank you for your gift!"
-    thanks: "Thank you so much!"
-    
-  brazil_account:
-    account_holder_term: "Account Holder"
-    account_holder_description: "André Thiollier"
-    bank_term: "Bank"
-    bank_description: "HSBC Bank Brasil S/A"
-    branch_number_term: "Branch Number"
-    branch_number_description: "2005"
-    account_number_term: "Account Number"
-    account_number_description: "00094-72"
-    type_of_account_term: "Type of Account"
-    type_of_account_description: "Conta Corrente"
-    cpf_term: "CPF"
-    cpf_description: "219.610.028-50"
+    registry:
+      name: "Registry"
+      intro: "Your presence in our lives and at our wedding is our gift. However, if you want to give us a present for our new home, we have set up a registry in %{crate_and_barrel}."
+      bank_info: "In case it’s more convenient for you, we have also opened accounts in Brazil and Argentina. Please include your name in the purpose of the transfer so we can thank you for your gift!"
+      thanks: "Thank you so much!"
 
-  rsvp:
-    title: "RSVP"
-    body: "Please tell us if you are coming by completing the form below, or by contacting Laura Castro (%{email_laura_castro} or +54 11 4804 3186). Also, please fill out your contact information so we can send our invitations to you!"
+    rsvp:
+      name: "RSVP"
+      body: "Please tell us if you are coming by completing the form below, or by contacting Laura Castro (%{email_laura_castro}, +54 11 4804 3186). Also, please fill out your contact information so we can send our invitations to you!"
+
+  brazil_account:
+    account_holder:
+      term: "Account Holder"
+      description: "André Thiollier"
+    bank:
+      term: "Bank"
+      description: "HSBC Bank Brasil S/A"
+    branch_number:
+      term: "Branch Number"
+      description: "2005"
+    account_number:
+      term: "Account Number"
+      description: "00094-72"
+    account_type:
+      term: "Account Type"
+      description: "Conta Corrente"
+    cpf:
+      term: "C.P.F."
+      description: "219.610.028-50"
+  
+  argentina_account:
+    account_holder:
+      term: "Account Holder"
+      description: "Susana Poy"
+    dni:
+      term: "D.N.I."
+      description: "14.228.245"
+    bank:
+      term: "Bank"
+      description: "BBVA Francés"
+    account_number:
+      term: "Account Number"
+      description: "201-42309-9"
+    account_type:
+      term: "Account Type"
+      description: "Caja de Ahorros"
+    cbu:
+      term: "C.B.U."
+      description: "0170201140000004230995"
 
   emails:
     laura_castro: "laura@barbaradiez.com"
+    puerto_norte: "reservas@puertonortehotel.com"
 
   links:
     most_foreign_countries:
@@ -112,7 +142,7 @@ en:
     don_ferro_text: "Don Ferro"
     don_ferro_href: "http://www.puertoespana.com.ar/online/donferro/"
     la_estancia_text: "La Estancia"
-    la_estancia_href: "http://www.parrillalaestancia.com.ar/"
+    la_estancia_href: "https://plus.google.com/108797054979400022487"
     parque_de_espana_text: "Parque de España"
     parque_de_espana_href: "http://en.wikipedia.org/wiki/Parque_de_España"
     alto_rosario_text: "Alto Rosario"

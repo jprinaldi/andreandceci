@@ -1,2 +1,24 @@
 pt:
   title: "André and Ceci"
+
+  sections:
+    ceremony:
+      name: "Cerimônia"
+
+    reception:
+      name: "Festa"
+
+    fly:
+      name: ""
+
+    stay:
+      name: ""
+
+    explore:
+      name: ""
+
+    registry:
+      name: "Presentes"
+
+    rsvp:
+      name: "RSVP"
