@@ -56,6 +56,12 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
 
-gem 'rails_12factor', group: :production
+group :production do
+  # Use 12Factor
+  gem 'rails_12factor'
+  
+  # Use New Relic
+  gem 'newrelic_rpm'
+end
 
 ruby '2.2.2'
