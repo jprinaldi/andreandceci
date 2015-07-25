@@ -31,9 +31,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Select language <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><%= link_to 'English', root_path(locale: :en) %></li>
-            <li class="flag es"><%= link_to 'Español', root_path(locale: :es) %></li>
-            <li class="flag pt"><%= link_to 'Português', root_path(locale: :pt) %></li>
+            <li><%= link_to content_tag(:span, '', class: 'flag-icon flag-icon-us').concat(' English'), root_path(locale: :en) %></li>
+            <li><%= link_to content_tag(:span, '', class: 'flag-icon flag-icon-ar').concat(' Español'), root_path(locale: :es) %></li>
+            <li><%= link_to content_tag(:span, '', class: 'flag-icon flag-icon-br').concat(' Português'), root_path(locale: :pt) %></li>
           </ul>
         </li>
       </ul>
@@ -53,7 +53,7 @@
   <section id="ceremony" class="row">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
       <h1><%= t('ceremony.title') %></h1>
-      <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/ceremony.jpg" alt="Ceremony" width="100%">
+      <%= image_tag("ceremony.jpg", width: "100%") %>
       <p><%= t('ceremony.body') %></p>
       <p><time datetime="2016-03-05 18:00"><%= t('ceremony.datetime') %></time></p>
       <p><a href="https://www.google.com.ar/maps/place/Punta+Lara+575,+Rosario,+Santa+Fe/@-32.8861015,-60.6929356,17z/data=!3m1!4b1!4m2!3m1!1s0x95b65399eeaaa42d:0x67be5900a91a6e30?hl=en" target="_blank"><%= t('ceremony.location.address') %></a></p>
@@ -64,7 +64,7 @@
   <section id="reception" class="row">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
       <h1><%= t('reception.title') %></h1>
-      <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/reception.jpg" alt="Reception" width="100%">
+      <%= image_tag("reception.jpg", width: "100%") %>
       <p><%= t('reception.body') %></p>
       <p><time datetime="2016-03-05 19:00"><%= t('reception.datetime') %></time></p>
       <p><a href="https://www.google.com.ar/maps/place/Av+Eduardo+Carrasco+3914,+Rosario,+Santa+Fe/@-32.8770532,-60.6879846,17z/data=!3m1!4b1!4m2!3m1!1s0x95b653925d6cfc39:0x7b69850a9295a672?hl=en" target="_blank"><%= t('reception.location.address') %></a></p>
@@ -75,7 +75,7 @@
   <section id="fly" class="row">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
       <h1>Fly</h1>
-      <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/fly.jpg" alt="Fly" width="100%">
+      <%= image_tag("fly.jpg", width: "100%") %>
       <p><%= t('travel.fly.first') %></p>
       <p><%= t('travel.fly.second',
 most_foreign_countries: link_to(t('links.most_foreign_countries.text'), t('links.most_foreign_countries.href'), target: '_blank'),
@@ -89,7 +89,7 @@ reciprocity_fee: link_to(t('links.reciprocity_fee.text'), t('links.reciprocity_f
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
     <h1>Stay</h1>
       <div>
-      <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/stay.jpg" alt="Stay" width="100%">
+      <%= image_tag("stay.jpg", width: "100%") %>
       <p><%= t('travel.stay.first') %></p>
       <p><%= t('travel.stay.second') %></p>
       <dl>
@@ -125,31 +125,31 @@ reciprocity_fee: link_to(t('links.reciprocity_fee.text'), t('links.reciprocity_f
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/explore-1.jpg" alt="Explore 1">
+            <%= image_tag("explore-1.jpg") %>
           </div>
 
           <div class="item">
-            <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/explore-2.jpg" alt="Explore 2">
+            <%= image_tag("explore-2.jpg") %>
           </div>
 
           <div class="item">
-            <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/explore-3.jpg" alt="Explore 3">
+            <%= image_tag("explore-3.jpg") %>
           </div>
 
           <div class="item">
-            <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/explore-4.jpg" alt="Explore 4">
+            <%= image_tag("explore-4.jpg") %>
           </div>
 
           <div class="item">
-            <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/explore-5.jpg" alt="Explore 5">
+            <%= image_tag("explore-5.jpg") %>
           </div>
 
           <div class="item">
-            <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/explore-6.jpg" alt="Explore 6">
+            <%= image_tag("explore-6.jpg") %>
           </div>
 
           <div class="item">
-            <img src="https://s3-sa-east-1.amazonaws.com/andreandceci/images/explore-7.jpg" alt="Explore 7">
+            <%= image_tag("explore-7.jpg") %>
           </div>
         </div>
 
@@ -163,8 +163,9 @@ reciprocity_fee: link_to(t('links.reciprocity_fee.text'), t('links.reciprocity_f
           <span class="sr-only">Next</span>
         </a>
       </div>
+      <p><%= t('travel.explore.first') %></p>
       <p>
-      <%= t('travel.explore',
+        <%= t('travel.explore.second',
 rio_mio: link_to(t('links.rio_mio_text'), t('links.rio_mio_href')),
 flag_memorial: link_to(t('links.flag_memorial_text'), t('links.flag_memorial_href')),
 don_ferro: link_to(t('links.don_ferro_text'), t('links.don_ferro_href')),
@@ -178,15 +179,15 @@ rock_and_fellers: link_to(t('links.rock_and_fellers_text'), t('links.rock_and_fe
     </div>
   </section>
 
-  <section id="registry" class="row">
+  <section id="registry" class="row text-center">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">   
-      <h1 class="text-center">Registry</h1>
+      <h1>Registry</h1>
       <p><%= t('registry.intro', crate_and_barrel: link_to(t('links.crate_and_barrel_text'), t('links.crate_and_barrel_href'), target: '_blank')).html_safe %></p>
       <p><%= t('registry.bank_info') %></p>
       <div class="row">
-        <div class="col-md-6">
-          <h4 class="text-center">Account in Brazil</h2>
-          <dl class="dl-horizontal">
+        <div class="col-sm-6">
+          <h4>Account in Brazil</h2>
+          <dl>
             <dt><%= t('brazil_account.account_holder_term') %></dt>
             <dd><%= t('brazil_account.account_holder_description') %></dd>
             <dt><%= t('brazil_account.bank_term') %></dt>
@@ -201,9 +202,9 @@ rock_and_fellers: link_to(t('links.rock_and_fellers_text'), t('links.rock_and_fe
             <dd><%= t('brazil_account.cpf_description') %></dd>
           </dl>
         </div>
-        <div class="col-md-6">
-          <h4 class="text-center">Account in Argentina</h2>
-          <dl class="dl-horizontal">
+        <div class="col-sm-6">
+          <h4>Account in Argentina</h2>
+          <dl>
             <dt>Coming soon</dt>
             <dd></dd>
           </dl>

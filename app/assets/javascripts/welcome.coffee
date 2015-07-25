@@ -4,7 +4,7 @@
 
 $(document).ready ->
   'use strict'
-  $('.main-sections a').click (e) ->
+  $('.main-sections a, .navbar-brand').click (e) ->
     e.preventDefault()
     # Collapse navbar when clicking on any link
     $('.navbar-collapse').collapse 'hide'

@@ -67,7 +67,9 @@ en:
           term: "Paraná Suite (double/single)"
           definition: "USD 185 per night for two nights; or USD 195 per night for one night (+ tax)"
 
-    explore: "Rosario is the third largest city in Argentina, tucked into a bend of the Paraná River 300 km northwest of Buenos Aires. Begin your day with a walk on the riverbank and a coffee at %{rio_mio}. Visit the national %{flag_memorial} and take the elevator up for a great view of the city. Have a delicious steak at %{don_ferro}, built on an old railway station, or parrilla %{la_estancia}, frequented by Lionel Messi. Bike or jog in %{parque_de_espana}, or stock up on leather goods in %{alto_rosario}. When the sun sets, take a stroll down %{boulevard_orono}, a two-way street bustling with restaurants, upscale buildings and traditional houses. To cap your night, stop by %{rock_and_fellers} to enjoy great food, drinks, and atmosphere."
+    explore:
+      first: "Rosario is the third largest city in Argentina, tucked into a bend of the Paraná River 300 km northwest of Buenos Aires."
+      second: "Begin your day with a walk on the riverbank and a coffee at %{rio_mio}. Visit the national %{flag_memorial} and take the elevator up for a great view of the city. Have a delicious steak at %{don_ferro}, built on an old railway station, or parrilla %{la_estancia}, frequented by Lionel Messi. Bike or jog in %{parque_de_espana}, or stock up on leather goods in %{alto_rosario}. When the sun sets, take a stroll down %{boulevard_orono}, a two-way street bustling with restaurants, upscale buildings and traditional houses. To cap your night, stop by %{rock_and_fellers} to enjoy great food, drinks, and atmosphere."
 
   registry:
     title: "Registry"
