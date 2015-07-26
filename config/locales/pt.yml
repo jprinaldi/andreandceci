@@ -9,7 +9,7 @@ pt:
     ceremony:
       name: "Cerimônia"
       body: "A Paróquia San Ramón é uma igreja católica de estilo colonial localizada no bairro onde a Ceci cresceu."
-      datetime: "17:45 horas, Sábado 5 de Março"
+      datetime: "17:45 horas, sábado 5 de março"
       location:
         name: ""
         address: "Rua Punta Lara, 575"
@@ -18,7 +18,7 @@ pt:
     reception:
       name: "Festa"
       body: "Punta Barranca está localizada a beira do Rio Paraná e possui um lindo jardim e vista para a ponte Rosário-Victoria."
-      datetime: "19:00 horas, Sábado 5 de Março"
+      datetime: "19:00 horas, sábado 5 de março"
       location:
         name: ""
         address: "Av. Carrasco, 3914"
