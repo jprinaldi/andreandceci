@@ -4,15 +4,30 @@ pt:
   sections:
     ceremony:
       name: "Cerimônia"
+      body: "A Paróquia San Ramón é uma igreja católica de estilo colonial localizada no bairro onde a Ceci cresceu."
+      datetime: "17:45 horas, Sábado 5 de Março"
+      location:
+        name: ""
+        address: "Rua Punta Lara, 575"
+      attire: "Traje formal"
 
     reception:
       name: "Festa"
+      body: "Punta Barranca está localizada a beira do Rio Paraná e possui um lindo jardim e vista para a ponte Rosário-Victoria."
+      datetime: "19:00 horas, Sábado 5 de Março"
+      location:
+        name: ""
+        address: "Av. Carrasco, 3914"
+      attire: "Traje formal"
 
     fly:
-      name: ""
+      name: "Viagem"
+      first: "O aeroporto internacional de Rosário, chamado “Islas Malvinas”, fica localizado à 13 km/25 minutos do centro da cidade. Existem voos diretos para Rosário de São Paulo (Guarulhos), Buenos Aires (Ezeiza e Aeroparque) e Córdoba (Pajas Blancas)."
+      second: "A maioria dos estrangeiros não precisam de visto para entrar na Argentina nos casos de permanência por menos de 90 dias. Estrangeiros oriundos dos Estados Unidos da América, Canada e Austrália devem pagar uma taxa de reciprocidade antes de viajar para a Argentina."
+      third: "Recomendamos que utilizem táxi particular para se deslocarem do aeroporto ao seu hotel. Procurem pelo ”Traslado Exclusivo” localizado no saguão principal do aeroporto."
 
     stay:
-      name: ""
+      name: "Estadia"
 
     explore:
       name: ""
