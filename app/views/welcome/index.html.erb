@@ -35,7 +35,7 @@
 <div class="container-fluid">
 
   <section id="home" class="row">
-    <div class="col-md-12 text-center">
+    <div class="col-md-12 text-center jumbotron">
       <h1>André &amp; Ceci</h1>
       <h2>are getting married</h2>
       <h3><time datetime="2016-03-05">March 5, 2016</time> <i class="fa fa-heart"></i> Rosario, Argentina</h3>
@@ -43,7 +43,7 @@
   </section>
 
   <section id="ceremony" class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center jumbotron">
       <h1><%= t('sections.ceremony.name') %></h1>
       <%= image_tag("ceremony.jpg", width: "100%") %>
       <p><%= t('sections.ceremony.body') %></p>
@@ -54,7 +54,7 @@
   </section>
 
   <section id="reception" class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center jumbotron">
       <h1><%= t('sections.reception.name') %></h1>
       <%= image_tag("reception.jpg", width: "100%") %>
       <p><%= t('sections.reception.body') %></p>
@@ -65,7 +65,7 @@
   </section>
   
   <section id="fly" class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center jumbotron">
       <h1><%= t('sections.fly.name') %></h1>
       <%= image_tag("fly.jpg", width: "100%") %>
       <p><%= t('sections.fly.first') %></p>
@@ -78,7 +78,7 @@ reciprocity_fee: link_to(t('links.reciprocity_fee.text'), t('links.reciprocity_f
   </section>
   
   <section id="stay" class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center jumbotron">
       <h1><%= t('sections.stay.name') %></h1>
       <%= image_tag("stay.jpg", width: "100%") %>
       <p><%= t('sections.stay.first', email_puerto_norte: mail_to("reservas@puertonortehotel.com")).html_safe %></p>
@@ -99,7 +99,7 @@ reciprocity_fee: link_to(t('links.reciprocity_fee.text'), t('links.reciprocity_f
   </section>
 
   <section id="explore" class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center jumbotron">
       <h1>Explore</h1>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -171,7 +171,7 @@ rock_and_fellers: link_to(t('links.rock_and_fellers_text'), t('links.rock_and_fe
   </section>
 
   <section id="registry" class="row text-center">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">   
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 jumbotron">   
       <h1><%= t('sections.registry.name') %></h1>
       <p><%= t('sections.registry.intro', crate_and_barrel: link_to(t('links.crate_and_barrel_text'), t('links.crate_and_barrel_href'), target: '_blank')).html_safe %></p>
       <p><%= t('sections.registry.bank_info') %></p>
@@ -220,7 +220,7 @@ rock_and_fellers: link_to(t('links.rock_and_fellers_text'), t('links.rock_and_fe
   </section>
 
   <section id="rsvp" class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center jumbotron">
       <h1><%= t('sections.rsvp.name') %></h1>
       <p><%= t('sections.rsvp.body', email_laura_castro: mail_to("laura@barbaradiez.com")).html_safe %></p>
       <%= form_for @rsvp_form, url: root_path, method: :post do |f| %>
