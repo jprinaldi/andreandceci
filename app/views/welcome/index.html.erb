@@ -33,224 +33,229 @@
   </div>
 </nav>
 <div class="container-fluid">
-
-  <section id="home" class="row">
-    <div class="col-md-12 text-center jumbotron">
-      <h1>André &amp; Ceci</h1>
-      <h2>are getting married</h2>
-      <h3><time datetime="2016-03-05">March 5, 2016</time> <i class="fa fa-heart"></i> Rosario, Argentina</h3>
-    </div>
-  </section>
-
-  <section id="ceremony" class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center jumbotron">
-      <h1><%= t('sections.ceremony.name') %></h1>
-      <%= image_tag("ceremony.jpg", width: "100%") %>
-      <p><%= t('sections.ceremony.body') %></p>
-      <p><time datetime="2016-03-05 18:00"><%= t('sections.ceremony.datetime') %></time></p>
-      <p><a href="https://www.google.com.ar/maps/place/Punta+Lara+575,+Rosario,+Santa+Fe/@-32.8861015,-60.6929356,17z/data=!3m1!4b1!4m2!3m1!1s0x95b65399eeaaa42d:0x67be5900a91a6e30?hl=en" target="_blank"><%= t('sections.ceremony.location.address') %></a></p>
-      <p><%= t('sections.ceremony.attire') %></p>
-    </div>
-  </section>
-
-  <section id="reception" class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center jumbotron">
-      <h1><%= t('sections.reception.name') %></h1>
-      <%= image_tag("reception.jpg", width: "100%") %>
-      <p><%= t('sections.reception.body') %></p>
-      <p><time datetime="2016-03-05 19:00"><%= t('sections.reception.datetime') %></time></p>
-      <p><a href="https://www.google.com.ar/maps/place/Av+Eduardo+Carrasco+3914,+Rosario,+Santa+Fe/@-32.8770532,-60.6879846,17z/data=!3m1!4b1!4m2!3m1!1s0x95b653925d6cfc39:0x7b69850a9295a672?hl=en" target="_blank"><%= t('sections.reception.location.address') %></a></p>
-      <p><%= t('sections.reception.attire') %></p>
-    </div>
-  </section>
   
-  <section id="fly" class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center jumbotron">
-      <h1><%= t('sections.fly.name') %></h1>
-      <%= image_tag("fly.jpg", width: "100%") %>
-      <p><%= t('sections.fly.first') %></p>
-      <p><%= t('sections.fly.second',
-most_foreign_countries: link_to(t('links.most_foreign_countries.text'), t('links.most_foreign_countries.href'), target: '_blank'),
-reciprocity_fee: link_to(t('links.reciprocity_fee.text'), t('links.reciprocity_fee.href'), target: '_blank')
-).html_safe %></p>
-      <p><%= t('sections.fly.third') %></p>
-    </div>
-  </section>
+  <div class="row main-sections">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+      <section id="home" class="text-center">
+        <div class="well">
+          <h1>André &amp; Ceci</h1>
+          <h2>are getting married</h2>
+          <h3><time datetime="2016-03-05">March 5, 2016</time> <i class="fa fa-heart"></i> Rosario, Argentina</h3>
+        </div>
+      </section>
+
+      <section id="ceremony" class="text-center">
+        <div class="well">
+          <h1><%= t('sections.ceremony.name') %></h1>
+          <%= image_tag("ceremony.jpg", width: "100%") %>
+          <p><%= t('sections.ceremony.body') %></p>
+          <p><time datetime="2016-03-05 18:00"><%= t('sections.ceremony.datetime') %></time></p>
+          <p><a href="https://www.google.com.ar/maps/place/Punta+Lara+575,+Rosario,+Santa+Fe/@-32.8861015,-60.6929356,17z/data=!3m1!4b1!4m2!3m1!1s0x95b65399eeaaa42d:0x67be5900a91a6e30?hl=en" target="_blank"><%= t('sections.ceremony.location.address') %></a></p>
+          <p><%= t('sections.ceremony.attire') %></p>
+        </div>
+      </section>
+
+      <section id="reception" class="text-center">
+        <div class="well">
+          <h1><%= t('sections.reception.name') %></h1>
+          <%= image_tag("reception.jpg", width: "100%") %>
+          <p><%= t('sections.reception.body') %></p>
+          <p><time datetime="2016-03-05 19:00"><%= t('sections.reception.datetime') %></time></p>
+          <p><a href="https://www.google.com.ar/maps/place/Av+Eduardo+Carrasco+3914,+Rosario,+Santa+Fe/@-32.8770532,-60.6879846,17z/data=!3m1!4b1!4m2!3m1!1s0x95b653925d6cfc39:0x7b69850a9295a672?hl=en" target="_blank"><%= t('sections.reception.location.address') %></a></p>
+          <p><%= t('sections.reception.attire') %></p>
+        </div>
+      </section>
+
+      <section id="fly" class="text-center">
+        <div class="well">
+          <h1><%= t('sections.fly.name') %></h1>
+          <%= image_tag("fly.jpg", width: "100%") %>
+          <p><%= t('sections.fly.first') %></p>
+          <p><%= t('sections.fly.second',
+      most_foreign_countries: link_to(t('links.most_foreign_countries.text'), t('links.most_foreign_countries.href'), target: '_blank'),
+      reciprocity_fee: link_to(t('links.reciprocity_fee.text'), t('links.reciprocity_fee.href'), target: '_blank')
+      ).html_safe %></p>
+          <p><%= t('sections.fly.third') %></p>
+        </div>
+      </section>
   
-  <section id="stay" class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center jumbotron">
-      <h1><%= t('sections.stay.name') %></h1>
-      <%= image_tag("stay.jpg", width: "100%") %>
-      <p><%= t('sections.stay.first', email_puerto_norte: mail_to("reservas@puertonortehotel.com")).html_safe %></p>
-      <p><%= t('sections.stay.second') %></p>
-      <dl>
-        <dt><%= t('sections.stay.room_rates.parana_city_double_single.term') %></dt>
-        <dd><%= t('sections.stay.room_rates.parana_city_double_single.definition') %></dd>
-        <dt><%= t('sections.stay.room_rates.parana_executive_double_single.term') %></dt>
-        <dd><%= t('sections.stay.room_rates.parana_executive_double_single.definition') %></dd>
-        <dt><%= t('sections.stay.room_rates.parana_executive_triple.term') %></dt>
-        <dd><%= t('sections.stay.room_rates.parana_executive_triple.definition') %></dd>
-        <dt><%= t('sections.stay.room_rates.parana_premium_double_single.term') %></dt>
-        <dd><%= t('sections.stay.room_rates.parana_premium_double_single.definition') %></dd>
-        <dt><%= t('sections.stay.room_rates.parana_suite_double_single.term') %></dt>
-        <dd><%= t('sections.stay.room_rates.parana_suite_double_single.definition') %></dd>
-      </dl>
-      <p><%= t('sections.stay.tax_info') %></p>
-  </section>
-
-  <section id="explore" class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center jumbotron">
-      <h1>Explore</h1>
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-          <li data-target="#myCarousel" data-slide-to="4"></li>
-          <li data-target="#myCarousel" data-slide-to="5"></li>
-          <li data-target="#myCarousel" data-slide-to="6"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <%= image_tag("explore-1.jpg") %>
-          </div>
-
-          <div class="item">
-            <%= image_tag("explore-2.jpg") %>
-          </div>
-
-          <div class="item">
-            <%= image_tag("explore-3.jpg") %>
-          </div>
-
-          <div class="item">
-            <%= image_tag("explore-4.jpg") %>
-          </div>
-
-          <div class="item">
-            <%= image_tag("explore-5.jpg") %>
-          </div>
-
-          <div class="item">
-            <%= image_tag("explore-6.jpg") %>
-          </div>
-
-          <div class="item">
-            <%= image_tag("explore-7.jpg") %>
-          </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <p><%= t('sections.explore.first') %></p>
-      <p>
-        <%= t('sections.explore.second',
-rio_mio: link_to(t('links.rio_mio_text'), t('links.rio_mio_href')),
-flag_memorial: link_to(t('links.flag_memorial_text'), t('links.flag_memorial_href')),
-don_ferro: link_to(t('links.don_ferro_text'), t('links.don_ferro_href')),
-la_estancia: link_to(t('links.la_estancia_text'), t('links.la_estancia_href')),
-parque_de_espana: link_to(t('links.parque_de_espana_text'), t('links.parque_de_espana_href')),
-alto_rosario: link_to(t('links.alto_rosario_text'), t('links.alto_rosario_href')),
-boulevard_orono: link_to(t('links.boulevard_orono_text'), t('links.boulevard_orono_href')),
-rock_and_fellers: link_to(t('links.rock_and_fellers_text'), t('links.rock_and_fellers_href')),
-).html_safe %>
-      </p>
-    </div>
-  </section>
-
-  <section id="registry" class="row text-center">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 jumbotron">   
-      <h1><%= t('sections.registry.name') %></h1>
-      <p><%= t('sections.registry.intro', crate_and_barrel: link_to(t('links.crate_and_barrel_text'), t('links.crate_and_barrel_href'), target: '_blank')).html_safe %></p>
-      <p><%= t('sections.registry.bank_info') %></p>
-      <div class="row">
-        <div class="col-xs-6">
-          <h4>Account in Brazil</h4>
+      <section id="stay" class="text-center">
+        <div class="well">
+          <h1><%= t('sections.stay.name') %></h1>
+          <%= image_tag("stay.jpg", width: "100%") %>
+          <p><%= t('sections.stay.first', email_puerto_norte: mail_to("reservas@puertonortehotel.com")).html_safe %></p>
+          <p><%= t('sections.stay.second') %></p>
           <dl>
-            <dt><%= t('brazil_account.account_holder.term') %></dt>
-            <dd><%= t('brazil_account.account_holder.description') %></dd>
-            <dt><%= t('brazil_account.bank.term') %></dt>
-            <dd><%= t('brazil_account.bank.description') %></dd>
-            <dt><%= t('brazil_account.branch_number.term') %></dt>
-            <dd><%= t('brazil_account.branch_number.description') %></dd>
-            <dt><%= t('brazil_account.account_number.term') %></dt>
-            <dd><%= t('brazil_account.account_number.description') %></dd>
-            <dt><%= t('brazil_account.account_type.term') %></dt>
-            <dd><%= t('brazil_account.account_type.description') %></dd>
-            <dt><%= t('brazil_account.cpf.term') %></dt>
-            <dd><%= t('brazil_account.cpf.description') %></dd>
+            <dt><%= t('sections.stay.room_rates.parana_city_double_single.term') %></dt>
+            <dd><%= t('sections.stay.room_rates.parana_city_double_single.definition') %></dd>
+            <dt><%= t('sections.stay.room_rates.parana_executive_double_single.term') %></dt>
+            <dd><%= t('sections.stay.room_rates.parana_executive_double_single.definition') %></dd>
+            <dt><%= t('sections.stay.room_rates.parana_executive_triple.term') %></dt>
+            <dd><%= t('sections.stay.room_rates.parana_executive_triple.definition') %></dd>
+            <dt><%= t('sections.stay.room_rates.parana_premium_double_single.term') %></dt>
+            <dd><%= t('sections.stay.room_rates.parana_premium_double_single.definition') %></dd>
+            <dt><%= t('sections.stay.room_rates.parana_suite_double_single.term') %></dt>
+            <dd><%= t('sections.stay.room_rates.parana_suite_double_single.definition') %></dd>
           </dl>
+          <p><%= t('sections.stay.tax_info') %></p>
         </div>
-        <div class="col-xs-6">
-          <h4>Account in Argentina <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="Only for transfers in pesos from Argentina"></i></h4>
-          <dl>
-            <dt><%= t('argentina_account.account_holder.term') %></dt>
-            <dd><%= t('argentina_account.account_holder.description') %></dd>
-            <dt><%= t('argentina_account.dni.term') %></dt>
-            <dd><%= t('argentina_account.dni.description') %></dd>
-            <dt><%= t('argentina_account.bank.term') %></dt>
-            <dd><%= t('argentina_account.bank.description') %></dd>
-            <dt><%= t('argentina_account.account_number.term') %></dt>
-            <dd><%= t('argentina_account.account_number.description') %></dd>
-            <dt><%= t('argentina_account.account_type.term') %></dt>
-            <dd><%= t('argentina_account.account_type.description') %></dd>
-            <dt><%= t('argentina_account.cbu.term') %></dt>
-            <dd><%= t('argentina_account.cbu.description') %></dd>
-          </dl>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <p class="text-center"><%= t('sections.registry.thanks') %></p>
-        </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <section id="rsvp" class="row">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center jumbotron">
-      <h1><%= t('sections.rsvp.name') %></h1>
-      <p><%= t('sections.rsvp.body', email_laura_castro: mail_to("laura@barbaradiez.com")).html_safe %></p>
-      <%= form_for @rsvp_form, url: root_path, method: :post do |f| %>
-        <div class="form-group">
-          <label class="sr-only" for="guest-count">Number of guests</label>
-          <div class="input-group">
-            <div class="input-group-addon"><i class="fa fa-slack fa-fw"></i></div>
-            <%= f.number_field :guest_count, class: "form-control", id: "guest_count", placeholder: "Number of guests", required: true %>
+      <section id="explore" class="text-center">
+        <div class="well">
+          <h1>Explore</h1>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <%= image_tag("explore-1.jpg") %>
+                </div>
+
+                <div class="item">
+                  <%= image_tag("explore-2.jpg") %>
+                </div>
+
+                <div class="item">
+                  <%= image_tag("explore-3.jpg") %>
+                </div>
+
+                <div class="item">
+                  <%= image_tag("explore-4.jpg") %>
+                </div>
+
+                <div class="item">
+                  <%= image_tag("explore-5.jpg") %>
+                </div>
+
+                <div class="item">
+                  <%= image_tag("explore-6.jpg") %>
+                </div>
+
+                <div class="item">
+                  <%= image_tag("explore-7.jpg") %>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          <p><%= t('sections.explore.first') %></p>
+          <p>
+            <%= t('sections.explore.second',
+      rio_mio: link_to(t('links.rio_mio_text'), t('links.rio_mio_href')),
+      flag_memorial: link_to(t('links.flag_memorial_text'), t('links.flag_memorial_href')),
+      don_ferro: link_to(t('links.don_ferro_text'), t('links.don_ferro_href')),
+      la_estancia: link_to(t('links.la_estancia_text'), t('links.la_estancia_href')),
+      parque_de_espana: link_to(t('links.parque_de_espana_text'), t('links.parque_de_espana_href')),
+      alto_rosario: link_to(t('links.alto_rosario_text'), t('links.alto_rosario_href')),
+      boulevard_orono: link_to(t('links.boulevard_orono_text'), t('links.boulevard_orono_href')),
+      rock_and_fellers: link_to(t('links.rock_and_fellers_text'), t('links.rock_and_fellers_href')),
+      ).html_safe %>
+          </p>
+        </div>
+      </section>
+
+      <section id="registry" class="text-center">
+        <div class="well">
+          <h1><%= t('sections.registry.name') %></h1>
+          <p><%= t('sections.registry.intro', crate_and_barrel: link_to(t('links.crate_and_barrel_text'), t('links.crate_and_barrel_href'), target: '_blank')).html_safe %></p>
+          <p><%= t('sections.registry.bank_info') %></p>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <h4>Account in Brazil</h4>
+              <dl>
+                <dt><%= t('brazil_account.account_holder.term') %></dt>
+                <dd><%= t('brazil_account.account_holder.description') %></dd>
+                <dt><%= t('brazil_account.bank.term') %></dt>
+                <dd><%= t('brazil_account.bank.description') %></dd>
+                <dt><%= t('brazil_account.branch_number.term') %></dt>
+                <dd><%= t('brazil_account.branch_number.description') %></dd>
+                <dt><%= t('brazil_account.account_number.term') %></dt>
+                <dd><%= t('brazil_account.account_number.description') %></dd>
+                <dt><%= t('brazil_account.account_type.term') %></dt>
+                <dd><%= t('brazil_account.account_type.description') %></dd>
+                <dt><%= t('brazil_account.cpf.term') %></dt>
+                <dd><%= t('brazil_account.cpf.description') %></dd>
+              </dl>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <h4>Account in Argentina <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="Only for transfers in pesos from Argentina"></i></h4>
+              <dl>
+                <dt><%= t('argentina_account.account_holder.term') %></dt>
+                <dd><%= t('argentina_account.account_holder.description') %></dd>
+                <dt><%= t('argentina_account.dni.term') %></dt>
+                <dd><%= t('argentina_account.dni.description') %></dd>
+                <dt><%= t('argentina_account.bank.term') %></dt>
+                <dd><%= t('argentina_account.bank.description') %></dd>
+                <dt><%= t('argentina_account.account_number.term') %></dt>
+                <dd><%= t('argentina_account.account_number.description') %></dd>
+                <dt><%= t('argentina_account.account_type.term') %></dt>
+                <dd><%= t('argentina_account.account_type.description') %></dd>
+                <dt><%= t('argentina_account.cbu.term') %></dt>
+                <dd><%= t('argentina_account.cbu.description') %></dd>
+              </dl>
+            </div>
           </div>
-          <label class="sr-only" for="guest_names">Names of guests</label>
-          <div class="input-group">
-            <div class="input-group-addon"><i class="fa fa-users fa-fw"></i></div>
-            <%= f.text_field :guest_names, class: "form-control", placeholder: "Names of guests", required: true %>
-          </div>
-          <label class="sr-only" for="song">Food restrictions (if any)</label>
-          <div class="input-group">
-            <div class="input-group-addon"><i class="fa fa-cutlery fa-fw"></i></div>
-            <%= f.text_field :food_restrictions, class: "form-control", placeholder: "Food restrictions (if any)" %>
-          </div>
-          <div class="input-group">
-            <div class="input-group-addon"><i class="fa fa-home fa-fw"></i></div>
-            <%= f.text_field :home_address, class: "form-control", placeholder: "Home address", required: true %>
-          </div>
-          <div class="input-group">
-            <div class="input-group-addon"><i class="fa fa-phone fa-fw"></i></div>
-            <%= f.phone_field :phone, class: "form-control", placeholder: "Phone", required: true %>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-center"><%= t('sections.registry.thanks') %></p>
+            </div>
           </div>
         </div>
-        <%= f.button "Send reply", class: "btn btn-default" %>
-      <% end %>
+      </section>
+
+      <section id="rsvp" class="text-center">
+        <div class="well">
+          <h1><%= t('sections.rsvp.name') %></h1>
+          <p><%= t('sections.rsvp.body', email_laura_castro: mail_to("laura@barbaradiez.com")).html_safe %></p>
+          <%= form_for @rsvp_form, url: root_path, method: :post do |f| %>
+            <div class="form-group">
+              <label class="sr-only" for="guest-count">Number of guests</label>
+              <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-slack fa-fw"></i></div>
+                <%= f.number_field :guest_count, class: "form-control", id: "guest_count", placeholder: "Number of guests", required: true %>
+              </div>
+              <label class="sr-only" for="guest_names">Names of guests</label>
+              <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-users fa-fw"></i></div>
+                <%= f.text_field :guest_names, class: "form-control", placeholder: "Names of guests", required: true %>
+              </div>
+              <label class="sr-only" for="song">Food restrictions (if any)</label>
+              <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-cutlery fa-fw"></i></div>
+                <%= f.text_field :food_restrictions, class: "form-control", placeholder: "Food restrictions (if any)" %>
+              </div>
+              <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-home fa-fw"></i></div>
+                <%= f.text_field :home_address, class: "form-control", placeholder: "Home address", required: true %>
+              </div>
+              <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-phone fa-fw"></i></div>
+                <%= f.phone_field :phone, class: "form-control", placeholder: "Phone", required: true %>
+              </div>
+            </div>
+            <%= f.button "Send reply", class: "btn btn-default" %>
+          <% end %>
+        </div>
+      </section>
     </div>
-  </section>
+  </div>
 </div>
