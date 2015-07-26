@@ -1,7 +1,11 @@
 pt:
-  title: "André and Ceci"
+  title: "André & Ceci"
 
   sections:
+    home:
+      heading: "André & Ceci"
+      date: "5 de março, 2016"
+      location: "Rosario, Argentina"
     ceremony:
       name: "Cerimônia"
       body: "A Paróquia San Ramón é uma igreja católica de estilo colonial localizada no bairro onde a Ceci cresceu."
@@ -23,17 +27,133 @@ pt:
     fly:
       name: "Viagem"
       first: "O aeroporto internacional de Rosário, chamado “Islas Malvinas”, fica localizado à 13 km/25 minutos do centro da cidade. Existem voos diretos para Rosário de São Paulo (Guarulhos), Buenos Aires (Ezeiza e Aeroparque) e Córdoba (Pajas Blancas)."
-      second: "A maioria dos estrangeiros não precisam de visto para entrar na Argentina nos casos de permanência por menos de 90 dias. Estrangeiros oriundos dos Estados Unidos da América, Canada e Austrália devem pagar uma taxa de reciprocidade antes de viajar para a Argentina."
+      second: "A %{most_foreign_countries} não precisam de visto para entrar na Argentina nos casos de permanência por menos de 90 dias. Estrangeiros oriundos dos Estados Unidos da América, Canada e Austrália devem pagar uma %{reciprocity_fee} antes de viajar para a Argentina."
       third: "Recomendamos que utilizem táxi particular para se deslocarem do aeroporto ao seu hotel. Procurem pelo ”Traslado Exclusivo” localizado no saguão principal do aeroporto."
 
     stay:
       name: "Estadia"
+      first: "Negociamos excelentes tarifas para os nossos convidados que quiserem ficar no %{puerto_norte_design_hotel}, um hotel cinco estrelas localizado a beira do Rio Paraná, localização esta central para o casamento e atrações da cidade. Para reservas, por favor, escrevam para Paola Alegrechy (%{email_puerto_norte}, +54 341 436-2700) e informem o código “Casamiento Cecilia y André”."
+      second: "Todas as tarifas incluem café da manhã e wifi gratuitos, bem como acesso ao spa, solarium e piscina (se a reserva for feita antes de 30 de setembro de 2015):"
+      room_rates:
+        parana_city_double_single:
+          term: "Paraná City (duplo/simples)"
+          definition: "USD 115 por noite, por duas noites; ou USD 125 por noite, por uma noite (+ imposto)"
+        parana_executive_double_single:
+          term: "Paraná Executive (duplo/simples)"
+          definition: "USD 135 por noite, por duas noites; ou USD 145 por noite, por uma noite (+ imposto)"
+        parana_executive_triple:
+          term: "Paraná Executive (triplo)"
+          definition: "USD 165 por noite, por duas noites; ou USD 175 por noite, por uma noite (+ imposto)"
+        parana_premium_double_single:
+          term: "Paraná Premium (duplo/simples)"
+          definition: "USD 165 por noite, por duas noites; ou USD 175 por noite, por uma noite (+ imposto)"
+        parana_suite_double_single:
+          term: "Paraná Suite (duplo/simples)"
+          definition: "USD 185 por noite, por duas noites; ou USD 195 por noite, por uma noite (+ imposto)"
+      tax_info: "Imposto na Argentina é de 21%."
 
     explore:
-      name: ""
+      name: "A Cidade"
+      first: "Rosário é a terceira maior cidade da Argentina, localizada a beira do Rio Paraná, à 300km noroeste de Buenos Aires."
+      second: "Comece o seu dia com uma caminhada as margens do rio e um café no %{rio_mio}. Visite o %{national_flag_memorial} e pegue o elevador para uma incrível vista da cidade. Coma uma deliciosa carne argentina no %{don_ferro}, construído no lugar de uma antiga estação de trem. Desfrute de uma tradicional parrilla no %{la_estancia}, frequentado por Lionel Messi. Pedale ou corra no %{parque_de_espana}, ou compre artigos de couro no %{alto_rosario}. Durante o pôr do sol, caminhe pela %{boulevard_orono}, uma rua repleta de restaurantes, edifícios modernos e casarões antigos. Para fechar a noite com chave de ouro, pare no %{rock_and_fellers} e desfrute de uma excelente combinação de comida, drinks e ambiente."
 
     registry:
       name: "Presentes"
+      intro: "Nosso presente é ter vocês em nossas vidas e em nosso casamento. Porém, caso queiram nos presentear com artigos para casa, fizemos uma lista de presentes na %{crate_and_barrel}."
+      bank_info: "Caso seja mais conveniente para você, também abrimos uma conta bancária no Brasil. Por favor, inclua o seu nome nas informações adicionais/comentários para que possamos agradecer o seu presente!"
+      thanks: "Muito obrigado!"
 
     rsvp:
       name: "RSVP"
+      body: "Por favor, avise-nos se você poderá ir ao nosso casamento, inserindo as informações abaixo ou entrando em contato com Laura Castro (%{email_laura_castro}, +54 11 4804 3186). Por favor, também insira seus dados de contato para que possamos enviar o seu convite!"
+      guest_count: "Número de pessoas"
+      guest_names: "Nome dos convidados"
+      food_restrictions: "Restrições alimentares"
+      home_address: "Endereço"
+      phone: "Telefone"
+      send_reply: "Enviar resposta"
+
+  brazil_account:
+    name: "Conta no Brasil"
+    account_holder:
+      term: "Titular"
+      description: "André Thiollier"
+    bank:
+      term: "Banco"
+      description: "HSBC Bank Brasil S/A"
+    branch_number:
+      term: "Agência"
+      description: "2005"
+    account_number:
+      term: "Número da Conta"
+      description: "00094-72"
+    account_type:
+      term: "Tipo de Conta"
+      description: "Conta Corrente"
+    cpf:
+      term: "C.P.F."
+      description: "219.610.028-50"
+  
+  argentina_account:
+    name: "Conta na Argentina"
+    warning: "Só para transferências em pesos oriundas da Argentina"
+    account_holder:
+      term: "Titular"
+      description: "Susana Poy"
+    dni:
+      term: "D.N.I."
+      description: "14.228.245"
+    bank:
+      term: "Banco"
+      description: "BBVA Francés"
+    account_number:
+      term: "Número da Conta"
+      description: "201-42309-9"
+    account_type:
+      term: "Tipo da Conta"
+      description: "Caja de Ahorros"
+    cbu:
+      term: "C.B.U."
+      description: "0170201140000004230995"
+
+  emails:
+    laura_castro: "laura@barbaradiez.com"
+    puerto_norte: "reservas@puertonortehotel.com"
+
+  links:
+    most_foreign_countries:
+      text: "maioria dos estrangeiros"
+      href: "http://cnyor.mrecic.gov.ar/en/node/1816"
+    reciprocity_fee:
+      text: "taxa de reciprocidade"
+      href: "http://cnyor.mrecic.gov.ar/en/content/reciprocity-fee-us-canadian-and-australian-citizens-online-payment"
+    puerto_norte_design_hotel:
+      text: "Puerto Norte Design Hotel"
+      href: "http://www.puertonortehotel.com/?lang=pt"
+    rio_mio:
+      text: "Río Mío"
+      href: "http://www.puertoespana.com.ar/online/riomio/"
+    national_flag_memorial:
+      text: "Monumento Nacional da Bandeira"
+      href: "http://www.monumentoalabandera.gob.ar/"
+    don_ferro:
+      text: "Don Ferro"
+      href: "http://www.puertoespana.com.ar/online/donferro/"
+    la_estancia:
+      text: "La Estancia"
+      href: "https://plus.google.com/108797054979400022487"
+    parque_de_espana:
+      text: "Parque de España"
+      href: "http://en.wikipedia.org/wiki/Parque_de_España"
+    alto_rosario:
+      text: "Alto Rosario"
+      href: "http://www.alto-rosario.com.ar/"
+    boulevard_orono:
+      text: "Boulevard Oroño"
+      href: "http://en.wikipedia.org/wiki/Oroño_Boulevard"
+    rock_and_fellers:
+      text: "Rock & Feller's"
+      href: "http://www.rockandfellers.com.ar/"
+    crate_and_barrel:
+      text: "Crate & Barrel"
+      href: "http://www.crateandbarrel.com/gift-registry/cecilia-rinaldi-and-andre-thiollier/r5386947"
