@@ -27,7 +27,7 @@ es:
     fly:
       name: "Vuelos"
       first: "“Islas Malvinas” es el aeropuerto internacional de Rosario, ubicado a 13 km/25 minutos del centro de la ciudad. Actualmente existen vuelos directos desde Buenos Aires (Ezeiza y Aeroparque), Córdoba (Pajas Blancas), y São Paulo (Guarulhos)."
-      second: "La %{most_foreign_countries} no necesita una visa para ingresar a Argentina por menos de 90 días. No obstante, los ciudadanos de Estados Unidos, Canadá y Australia deben pagar una {reciprocity_fee} antes de viajar "
+      second: "La %{most_foreign_countries} no necesita una visa para ingresar a Argentina por menos de 90 días. No obstante, los ciudadanos de Estados Unidos, Canadá y Australia deben pagar una %{reciprocity_fee} antes de viajar "
       third: "Te recomendamos viajar en remis hasta tu hotel. Buscá el cartel de Traslado Exclusivo en el hall principal del aeropuerto."
 
     stay:
