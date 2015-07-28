@@ -54,7 +54,7 @@ en:
     stay:
       name: "Stay"
       first: "We negotiated great rates for our guests at %{puerto_norte_design_hotel}, a five-star hotel located by the Paraná River, a location central to both the city’s offerings and the wedding. To book, please call or write to Paola Alegrechy (%{email_puerto_norte}, +54 341 436-2700), and mention “Casamiento Cecilia y André”."
-      second: "All room rates include free breakfast and wi fi, and access to spa, solarium and pool (if booked before Sep. 30, 2015):"
+      second: "All room rates include free breakfast and Wi-Fi, and access to spa, solarium and pool (if booked before Sep. 30, 2015):"
       room_rates:
         parana_city_double_single:
           term: "Paraná City (double/single)"
@@ -76,7 +76,7 @@ en:
     explore:
       name: "Explore"
       first: "Rosario is the third largest city in Argentina, tucked into a bend of the Paraná River 300 km northwest of Buenos Aires."
-      second: "Begin your day with a walk on the riverbank and a coffee at %{rio_mio}. Visit the national %{national_flag_memorial} and take the elevator up for a great view of the city. Have a delicious steak at %{don_ferro}, built on an old railway station, or parrilla %{la_estancia}, frequented by Lionel Messi. Bike or jog in %{parque_de_espana}, or stock up on leather goods in %{alto_rosario}. When the sun sets, take a stroll down %{boulevard_orono}, a two-way street bustling with restaurants, upscale buildings and traditional houses. To cap your night, stop by %{rock_and_fellers} to enjoy great food, drinks, and atmosphere."
+      second: "Begin your day with a walk on the riverbank and a coffee at %{rio_mio}. Visit the national %{national_flag_memorial} and take the elevator up for a great view of the city. Have a delicious steak at %{don_ferro}, built on an old railway station, or parrilla %{parrilla_la_estancia}, frequented by Lionel Messi. Bike or jog in %{parque_de_espana}, or stock up on leather goods in %{alto_rosario}. When the sun sets, take a stroll down %{boulevard_orono}, a two-way street bustling with restaurants, upscale buildings and traditional houses. To cap your night, stop by %{rock_and_fellers} to enjoy great food, drinks, and atmosphere."
 
     registry:
       name: "Registry"
@@ -90,7 +90,8 @@ en:
       guest_count: "Number of guests"
       guest_names: "Names of guests"
       food_restrictions: "Food restrictions (if any)"
-      home_address: "Home address"
+      email: "Email"
+      address: "Address"
       phone: "Phone"
       send_reply: "Send reply"
 
@@ -160,8 +161,8 @@ en:
     don_ferro:
       text: "Don Ferro"
       href: "http://www.puertoespana.com.ar/online/donferro/"
-    la_estancia:
-      text: "La Estancia"
+    parrilla_la_estancia:
+      text: "Parrilla La Estancia"
       href: "https://plus.google.com/108797054979400022487"
     parque_de_espana:
       text: "Parque de España"

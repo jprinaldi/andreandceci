@@ -2,7 +2,8 @@ class RSVPForm < MailForm::Base
   attribute :guest_count, validate: true
   attribute :guest_names, validate: true
   attribute :food_restrictions
-  attribute :home_address, validate: true
+  attribute :email, validate: true
+  attribute :address, validate: true
   attribute :phone, validate: true
 
   # Declare the e-mail headers. It accepts anything the mail method
