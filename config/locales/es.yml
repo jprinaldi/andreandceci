@@ -32,7 +32,7 @@ es:
 
     stay:
       name: "Estadía"
-      first: "Negociamos muy buenas tarifas para nuestros invitados en el %{puerto_norte_design_hotel}, un hotel de cinco estrellas ubicado a orillas del río Paraná. La ubicación es ideal respecto de nuestro casamiento y del centro de la ciudad. Para reservar, por favor llamá o escribí a Paola Alegrechy (%{email_puerto_norte}, +54 341 4362700), y mencioná nuestro código: “Casamiento Cecilia y André”. "
+      first: "Negociamos muy buenas tarifas para nuestros invitados en %{puerto_norte_design_hotel}, un hotel de cinco estrellas ubicado a orillas del río Paraná. La ubicación es ideal respecto del casamiento y del centro de la ciudad. Para reservar, por favor llamá o escribí a Paola Alegrechy (%{email_puerto_norte}, +54 341 4362700), y mencioná nuestro código: “Casamiento Cecilia y André”. "
       second: "Todas las tarifas incluyen desayuno y Wi-Fi, y acceso al spa, solarium y piscina (si reservás antes del 30 de septiembre de 2015):"
       room_rates:
         parana_city_double_single:
@@ -59,13 +59,13 @@ es:
 
     registry:
       name: "Regalos"
-      intro: "Tu presencia en nuestras vidas y en nuestro casamiento es nuestro regalo. ¡No necesitamos nada más! No obstante, si quisieras hacernos un regalo para nuestro hogar, armamos una lista en %{crate_and_barrel}."
+      intro: "Tu presencia en nuestras vidas y en nuestro casamiento es nuestro regalo. ¡No necesitamos nada más! No obstante, si quisieras darnos un presente para nuestro hogar, armamos una lista en %{crate_and_barrel}."
       bank_info: "En caso de que te resulte más conveniente, también abrimos cuentas en Brasil y en Argentina. Por favor incluí tu nombre en el propósito de la transferencia para que podamos agradecer tu regalo."
       thanks: "¡Muchas gracias!"
 
     rsvp:
       name: "RSVP"
-      body: "Por favor avisanos si podés venir completando el siguiente formulario, o contactando a Laura Castro (%{email_laura_castro} +54 11 4804 3186). Dejanos tu información de contacto para que te podamos enviar las invitaciones."
+      body: "Por favor confirmanos tu presencia completando el siguiente formulario, o contactando a Laura Castro (%{email_laura_castro} +54 11 4804 3186). Dejanos tu información de contacto para que te podamos enviar las invitaciones."
       guest_count: "Número de invitados"
       guest_names: "Nombres de los invitados"
       food_restrictions: "Restricciones alimentarias (si las hubiera)"
