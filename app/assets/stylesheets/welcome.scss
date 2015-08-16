@@ -6,6 +6,11 @@ body {
   position: relative;
   color: #725a29;
   background: antiquewhite;
+  background: url(image-path('body-background.jpg'));
+}
+
+nav {
+  background: url(image-path('nav-background.jpg'));
 }
 
 section {
