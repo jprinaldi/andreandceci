@@ -2,33 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-html {
-  height: 100%;
-  background: url(image-path('bg.jpg')) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 body {
-  height: 100%;
-  color: white;
-  background: transparent;
+  background: url(image-path('bg.png')) repeat;
 }
 
-a, a:visited, a:hover, a:active {
-  color: wheat;
+.container-fluid {
+  padding: 0;
 }
 
 section {
   padding-top: 50px;
-  min-height: 800px;
   div.well {
     margin-top: 20px;
     padding: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-    //border: 2px solid #d0bd98;
+    background-color: rgba(255, 255, 255, 0.5);
     border: 0;
   }
 }
@@ -51,10 +38,6 @@ section#home {
   h2, h3 {
     font-family: 'Parisienne', cursive;
   }
-}
-
-img {
-  border: 5px solid rgba(230, 230, 230, 1);
 }
 
 .input-group-addon {
@@ -114,18 +97,18 @@ img {
 
 /* Footer */
 
-.footer-basic-right {
+.footer-basic-center {
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
-	text-align: right;
+	text-align: center;
 	font: normal 18px sans-serif;
 	padding: 25px;
 	margin-top: 80px;
 }
 
-.footer-basic-right .footer-copyright {
+.footer-basic-center .footer-copyright {
 	color:  #8d9093;
 	font-size: 14px;
 	margin: 0;
@@ -143,4 +126,57 @@ img {
 		font-size: 12px;
 	}
 
+}
+
+// Carousel fade effect
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
 }
