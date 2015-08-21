@@ -55,7 +55,7 @@ pt:
     explore:
       name: "A Cidade"
       first: "Rosário é a terceira maior cidade da Argentina, localizada a beira do Rio Paraná, à 300km noroeste de Buenos Aires."
-      second: "Comece o seu dia com uma caminhada as margens do rio e um café no %{rio_mio}. Visite o %{national_flag_memorial} e pegue o elevador para uma incrível vista da cidade. Coma uma deliciosa carne argentina no %{don_ferro}, construído no lugar de uma antiga estação de trem. Desfrute de uma tradicional parrilla no %{parrilla_la_estancia}, frequentado por Lionel Messi. Pedale ou corra no %{parque_de_espana}, ou compre artigos de couro no %{alto_rosario}. Durante o pôr do sol, caminhe pela %{boulevard_orono}, uma rua repleta de restaurantes, edifícios modernos e casarões antigos. Para fechar a noite com chave de ouro, pare no %{rock_and_fellers} e desfrute de uma excelente combinação de comida, drinks e ambiente."
+      second: "Comece o seu dia com uma caminhada as margens do rio e um café no %{rio_mio}. Visite o %{national_flag_memorial} e pegue o elevador para uma incrível vista da cidade. Coma uma deliciosa carne argentina no %{don_ferro}, construído no lugar de uma antiga estação de trem. Desfrute de um tradicional restaurante no %{parrilla_la_estancia}, frequentado por Lionel Messi. Pedale ou corra no %{parque_de_espana}, ou compre artigos de couro no %{alto_rosario}. Durante o pôr do sol, caminhe pela %{boulevard_orono}, uma rua repleta de restaurantes, edifícios modernos e casarões antigos. Para fechar a noite com chave de ouro, pare no %{rock_and_fellers} e desfrute de uma excelente combinação de comida, drinks e ambiente."
 
     registry:
       name: "Presentes"

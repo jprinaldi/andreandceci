@@ -33,7 +33,7 @@ es:
     stay:
       name: "Estadía"
       first: "Negociamos muy buenas tarifas para nuestros invitados en %{puerto_norte_design_hotel}, un hotel de cinco estrellas ubicado a orillas del río Paraná. La ubicación es ideal respecto del casamiento y del centro de la ciudad. Para reservar, por favor llamá o escribí a Paola Alegrechy (%{email_puerto_norte}, +54 341 4362700), y mencioná nuestro código: “Casamiento Cecilia y André”. "
-      second: "Todas las tarifas incluyen desayuno y Wi-Fi, y acceso al spa, solarium y piscina (si reservás antes del 30 de septiembre de 2015):"
+      second: "Todas las tarifas incluyen desayuno, Wi-Fi, acceso al spa, solarium y piscina (si reservás antes del 30 de septiembre de 2015):"
       room_rates:
         parana_city_double_single:
           term: "Paraná City (doble/single)"
@@ -55,7 +55,7 @@ es:
     explore:
       name: "La Ciudad"
       first: "Rosario es la tercera ciudad más grande de Argentina, ubicada a orillas del río Paraná, 300 km al noroeste de Buenos Aires."
-      second: "Empezá tu día caminando por la costanera y tomando un café en %{rio_mio}. Visitá el %{national_flag_memorial}, y subí el ascensor para apreciar la ciudad desde la altura. Probá una riquísima carne en %{don_ferro}, construido sobre una vieja estación de tren, o Parrilla %{parrilla_la_estancia}, frecuentada por Lionel Messi. Luego conocé el %{parque_de_espana}, o salí de compras por el %{alto_rosario}. Al atardecer, paseá por %{boulevard_orono}, una calle tradicional llena de restaurantes, edificios modernos y casonas antiguas. Para coronar la noche, pasá por %{rock_and_fellers} y disfrutá de excelente comida, música y ambiente."
+      second: "Empezá tu día caminando por la costanera y tomando un café en %{rio_mio}. Visitá el %{national_flag_memorial}, y subí el ascensor para apreciar la ciudad desde la altura. Probá una riquísima carne en %{don_ferro}, construido sobre una vieja estación de tren, o %{parrilla_la_estancia}, frecuentada por Lionel Messi. Luego conocé el %{parque_de_espana}, o salí de compras por el %{alto_rosario}. Al atardecer, paseá por %{boulevard_orono}, una calle tradicional llena de restaurantes, edificios modernos y casonas antiguas. Para coronar la noche, pasá por %{rock_and_fellers} y disfrutá de excelente comida, música y ambiente."
 
     registry:
       name: "Regalos"
