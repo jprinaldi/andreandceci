@@ -182,3 +182,9 @@ en:
     crate_and_barrel:
       text: "Crate & Barrel"
       href: "http://www.crateandbarrel.com/gift-registry/cecilia-rinaldi-and-andre-thiollier/r5386947"
+    juampi:
+      text: "Juan Pablo Rinaldi"
+      href: "https://www.juampi.com/"
+
+  copyright:
+    text: "Developed by %{juampi}"
