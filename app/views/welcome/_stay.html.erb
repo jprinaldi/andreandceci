@@ -1,0 +1,23 @@
+<section id="stay" class="text-center">
+  <div class="well">
+    <h1><%= t('sections.stay.name') %></h1>
+    <%= image_tag("stay.jpg", width: "100%") %>
+    <p><%= t('sections.stay.first',
+  puerto_norte_design_hotel: link_to(t('links.puerto_norte_design_hotel.text'), t('links.puerto_norte_design_hotel.href'), target: '_blank'),
+  email_puerto_norte: mail_to("reservas@puertonortehotel.com")).html_safe %></p>
+    <p><%= t('sections.stay.second') %></p>
+    <dl>
+      <dt><%= t('sections.stay.room_rates.parana_city_double_single.term') %></dt>
+      <dd><%= t('sections.stay.room_rates.parana_city_double_single.definition') %></dd>
+      <dt><%= t('sections.stay.room_rates.parana_executive_double_single.term') %></dt>
+      <dd><%= t('sections.stay.room_rates.parana_executive_double_single.definition') %></dd>
+      <dt><%= t('sections.stay.room_rates.parana_executive_triple.term') %></dt>
+      <dd><%= t('sections.stay.room_rates.parana_executive_triple.definition') %></dd>
+      <dt><%= t('sections.stay.room_rates.parana_premium_double_single.term') %></dt>
+      <dd><%= t('sections.stay.room_rates.parana_premium_double_single.definition') %></dd>
+      <dt><%= t('sections.stay.room_rates.parana_suite_double_single.term') %></dt>
+      <dd><%= t('sections.stay.room_rates.parana_suite_double_single.definition') %></dd>
+    </dl>
+    <p><%= t('sections.stay.tax_info') %></p>
+  </div>
+</section>

@@ -1,0 +1,76 @@
+<section id="explore" class="text-center">
+  <div class="well">
+    <h1><%= t('sections.explore.name') %></h1>
+    <div id="exploreCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#exploreCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#exploreCarousel" data-slide-to="1"></li>
+        <li data-target="#exploreCarousel" data-slide-to="2"></li>
+        <li data-target="#exploreCarousel" data-slide-to="3"></li>
+        <li data-target="#exploreCarousel" data-slide-to="4"></li>
+        <li data-target="#exploreCarousel" data-slide-to="5"></li>
+        <li data-target="#exploreCarousel" data-slide-to="6"></li>
+        <li data-target="#exploreCarousel" data-slide-to="7"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <%= image_tag("explore-0.jpg") %>
+        </div>
+
+        <div class="item">
+          <%= image_tag("explore-1.jpg") %>
+        </div>
+
+        <div class="item">
+          <%= image_tag("explore-2.jpg") %>
+        </div>
+
+        <div class="item">
+          <%= image_tag("explore-3.jpg") %>
+        </div>
+
+        <div class="item">
+          <%= image_tag("explore-4.jpg") %>
+        </div>
+
+        <div class="item">
+          <%= image_tag("explore-5.jpg") %>
+        </div>
+
+        <div class="item">
+          <%= image_tag("explore-6.jpg") %>
+        </div>
+
+        <div class="item">
+          <%= image_tag("explore-7.jpg") %>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#exploreCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#exploreCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <p><%= t('sections.explore.first') %></p>
+    <p>
+      <%= t('sections.explore.second',
+rio_mio: link_to(t('links.rio_mio.text'), t('links.rio_mio.href')),
+national_flag_memorial: link_to(t('links.national_flag_memorial.text'), t('links.national_flag_memorial.href')),
+don_ferro: link_to(t('links.don_ferro.text'), t('links.don_ferro.href')),
+parrilla_la_estancia: link_to(t('links.parrilla_la_estancia.text'), t('links.parrilla_la_estancia.href')),
+parque_de_espana: link_to(t('links.parque_de_espana.text'), t('links.parque_de_espana.href')),
+alto_rosario: link_to(t('links.alto_rosario.text'), t('links.alto_rosario.href')),
+boulevard_orono: link_to(t('links.boulevard_orono.text'), t('links.boulevard_orono.href')),
+rock_and_fellers: link_to(t('links.rock_and_fellers.text'), t('links.rock_and_fellers.href')),
+).html_safe %>
+    </p>
+  </div>
+</section>

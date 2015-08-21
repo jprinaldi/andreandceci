@@ -80,7 +80,7 @@ en:
 
     registry:
       name: "Registry"
-      intro: "Your presence in our lives and at our wedding is our gift. However, if you want to give us a present for our new home, we have set up a registry in %{crate_and_barrel}."
+      intro: "Your presence in our lives and at our wedding is our gift. However, if you want to give us a present for our new home, we have set up a registry in %{gumps} and %{crate_and_barrel}."
       bank_info: "In case it’s more convenient for you, we have also opened accounts in Brazil and Argentina. Please include your name in the purpose of the transfer so we can thank you for your gift!"
       thanks: "Thank you so much!"
 
@@ -176,6 +176,9 @@ en:
     rock_and_fellers:
       text: "Rock & Feller's"
       href: "http://www.rockandfellers.com.ar/"
+    gumps:
+      text: "Gump's San Francisco"
+      href: "http://hosting.giftregistryworks.com/grworks/registry.jsp?retailerid=185&cc=499999455470"
     crate_and_barrel:
       text: "Crate & Barrel"
       href: "http://www.crateandbarrel.com/gift-registry/cecilia-rinaldi-and-andre-thiollier/r5386947"

@@ -1,0 +1,41 @@
+<section id="rsvp" class="text-center">
+  <div class="well">
+    <h1><%= t('sections.rsvp.name') %></h1>
+    <p><%= t('sections.rsvp.body', email_laura_castro: mail_to("laura@barbaradiez.com")).html_safe %></p>
+    <%= form_for @rsvp_form, url: root_path, method: :post do |f| %>
+      <div class="form-group">
+        <label class="sr-only" for="guest-count"><%= t('sections.rsvp.guest_count') %></label>
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-slack fa-fw"></i></div>
+          <%= f.number_field :guest_count, id: "guest-count", class: "form-control", placeholder: t('sections.rsvp.guest_count'), required: true %>
+        </div>
+        <label class="sr-only" for="guest-names"><%= t('sections.rsvp.guest_names') %></label>
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-users fa-fw"></i></div>
+          <%= f.text_field :guest_names, id: "guest-names", class: "form-control", placeholder: t('sections.rsvp.guest_names'), required: true %>
+        </div>
+        <label class="sr-only" for="food-restrictions"><%= t('sections.rsvp.food_restrictions') %></label>
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-cutlery fa-fw"></i></div>
+          <%= f.text_field :food_restrictions, id: "food-restrictions", class: "form-control", placeholder: t('sections.rsvp.food_restrictions') %>
+        </div>
+        <label class="sr-only" for="email"><%= t('sections.rsvp.email') %></label>
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-at fa-fw"></i></div>
+          <%= f.email_field :email, id: "email", class: "form-control", placeholder: t('sections.rsvp.email'), required: true %>
+        </div>
+        <label class="sr-only" for="address"><%= t('sections.rsvp.address') %></label>
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-home fa-fw"></i></div>
+          <%= f.text_field :address, id: "address", class: "form-control", placeholder: t('sections.rsvp.address'), required: true %>
+        </div>
+        <label class="sr-only" for="phone"><%= t('sections.rsvp.phone') %></label>
+        <div class="input-group">
+          <div class="input-group-addon"><i class="fa fa-phone fa-fw"></i></div>
+          <%= f.phone_field :phone, id: "phone", class: "form-control", placeholder: t('sections.rsvp.phone'), required: true %>
+        </div>
+      </div>
+      <%= f.button t('sections.rsvp.send_reply'), class: "btn btn-default" %>
+    <% end %>
+  </div>
+</section>

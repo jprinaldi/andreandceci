@@ -1,0 +1,12 @@
+<section id="fly" class="text-center">
+  <div class="well">
+    <h1><%= t('sections.fly.name') %></h1>
+    <%= image_tag("fly.jpg", width: "100%") %>
+    <p><%= t('sections.fly.first') %></p>
+    <p><%= t('sections.fly.second',
+most_foreign_countries: link_to(t('links.most_foreign_countries.text'), t('links.most_foreign_countries.href'), target: '_blank'),
+reciprocity_fee: link_to(t('links.reciprocity_fee.text'), t('links.reciprocity_fee.href'), target: '_blank')
+).html_safe %></p>
+    <p><%= t('sections.fly.third') %></p>
+  </div>
+</section>

@@ -59,7 +59,7 @@ pt:
 
     registry:
       name: "Presentes"
-      intro: "Nosso presente é ter vocês em nossas vidas e em nosso casamento. Porém, caso queiram nos presentear com artigos para casa, fizemos uma lista de presentes na %{crate_and_barrel}."
+      intro: "Nosso presente é ter vocês em nossas vidas e em nosso casamento. Porém, caso queiram nos presentear com artigos para casa, fizemos uma lista de presentes no %{gumps} e %{crate_and_barrel}."
       bank_info: "Caso seja mais conveniente para você, também abrimos uma conta bancária no Brasil. Por favor, inclua o seu nome nas informações adicionais/comentários para que possamos agradecer o seu presente!"
       thanks: "Muito obrigado!"
 
@@ -155,6 +155,9 @@ pt:
     rock_and_fellers:
       text: "Rock & Feller's"
       href: "http://www.rockandfellers.com.ar/"
+    gumps:
+      text: "Gump's San Francisco"
+      href: "http://hosting.giftregistryworks.com/grworks/registry.jsp?retailerid=185&cc=499999455470"
     crate_and_barrel:
       text: "Crate & Barrel"
       href: "http://www.crateandbarrel.com/gift-registry/cecilia-rinaldi-and-andre-thiollier/r5386947"

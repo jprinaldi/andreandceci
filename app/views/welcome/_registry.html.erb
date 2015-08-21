@@ -1,0 +1,51 @@
+<section id="registry" class="text-center">
+  <div class="well">
+    <h1><%= t('sections.registry.name') %></h1>
+    <p><%= t('sections.registry.intro',
+gumps: link_to(t('links.gumps.text'), t('links.gumps.href'), target: '_blank'),
+crate_and_barrel: link_to(t('links.crate_and_barrel.text'), t('links.crate_and_barrel.href'), target: '_blank')
+).html_safe %></p>
+    <p><%= t('sections.registry.bank_info') %></p>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <h4><%= t('brazil_account.name') %></h4>
+        <dl>
+          <dt><%= t('brazil_account.account_holder.term') %></dt>
+          <dd><%= t('brazil_account.account_holder.description') %></dd>
+          <dt><%= t('brazil_account.bank.term') %></dt>
+          <dd><%= t('brazil_account.bank.description') %></dd>
+          <dt><%= t('brazil_account.branch_number.term') %></dt>
+          <dd><%= t('brazil_account.branch_number.description') %></dd>
+          <dt><%= t('brazil_account.account_number.term') %></dt>
+          <dd><%= t('brazil_account.account_number.description') %></dd>
+          <dt><%= t('brazil_account.account_type.term') %></dt>
+          <dd><%= t('brazil_account.account_type.description') %></dd>
+          <dt><%= t('brazil_account.cpf.term') %></dt>
+          <dd><%= t('brazil_account.cpf.description') %></dd>
+        </dl>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <h4><%= t('argentina_account.name') %> <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="top" title="<%= t('argentina_account.warning') %>"></i></h4>
+        <dl>
+          <dt><%= t('argentina_account.account_holder.term') %></dt>
+          <dd><%= t('argentina_account.account_holder.description') %></dd>
+          <dt><%= t('argentina_account.dni.term') %></dt>
+          <dd><%= t('argentina_account.dni.description') %></dd>
+          <dt><%= t('argentina_account.bank.term') %></dt>
+          <dd><%= t('argentina_account.bank.description') %></dd>
+          <dt><%= t('argentina_account.account_number.term') %></dt>
+          <dd><%= t('argentina_account.account_number.description') %></dd>
+          <dt><%= t('argentina_account.account_type.term') %></dt>
+          <dd><%= t('argentina_account.account_type.description') %></dd>
+          <dt><%= t('argentina_account.cbu.term') %></dt>
+          <dd><%= t('argentina_account.cbu.description') %></dd>
+        </dl>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center"><%= t('sections.registry.thanks') %></p>
+      </div>
+    </div>
+  </div>
+</section>
