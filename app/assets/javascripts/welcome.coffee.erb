@@ -4,6 +4,7 @@
 
 $(document).ready ->
   'use strict'
+  $.backstretch '<%= image_path('bg.jpg') %>'
   $('[data-toggle="tooltip"]').tooltip()
   $('.main-sections a, .navbar-brand').click (e) ->
     e.preventDefault()
@@ -14,3 +15,4 @@ $(document).ready ->
     $('html, body').stop().animate { scrollTop: $($anchor.attr('href')).offset().top }, 1500, 'easeInOutExpo'
     return
   return
+
