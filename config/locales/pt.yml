@@ -33,7 +33,7 @@ pt:
     stay:
       name: "Estadia"
       first: "Negociamos excelentes tarifas para os nossos convidados que quiserem ficar no %{puerto_norte_design_hotel}, um hotel cinco estrelas localizado a beira do Rio Paraná, localização esta central para o casamento e atrações da cidade. Para reservas, por favor, escrevam para Paola Alegrechy (%{email_puerto_norte}, +54 341 436-2700) e informem o código “Casamiento Cecilia y André”."
-      second: "Todas as tarifas incluem café da manhã e Wi-Fi gratuitos, bem como acesso ao spa, solarium e piscina (se a reserva for feita antes de 31 de decembro de 2015):"
+      second: "Todas as tarifas incluem café da manhã e Wi-Fi gratuitos, bem como acesso ao spa, solarium e piscina (se a reserva for feita antes de 31 de dezembro de 2015):"
       room_rates:
         parana_executive_double_single:
           term: "Paraná Executive (duplo/simples)"
