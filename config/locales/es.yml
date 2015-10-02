@@ -33,23 +33,20 @@ es:
     stay:
       name: "Estadía"
       first: "Negociamos muy buenas tarifas para nuestros invitados en %{puerto_norte_design_hotel}, un hotel de cinco estrellas ubicado a orillas del río Paraná. La ubicación es ideal respecto del casamiento y del centro de la ciudad. Para reservar, por favor llamá o escribí a Paola Alegrechy (%{email_puerto_norte}, +54 341 4362700), y mencioná nuestro código: “Casamiento Cecilia y André”. "
-      second: "Todas las tarifas incluyen desayuno, Wi-Fi, acceso al spa, solarium y piscina (si reservás antes del 30 de septiembre de 2015):"
+      second: "Todas las tarifas incluyen desayuno, Wi-Fi, acceso al spa, solarium y piscina (si reservás antes del 31 de diciembre de 2015):"
       room_rates:
-        parana_city_double_single:
-          term: "Paraná City (doble/single)"
-          definition: "USD 115 por noche por dos noches; or USD 125 por noche por una noche (+ IVA)"
         parana_executive_double_single:
           term: "Paraná Executive (doble/single)"
-          definition: "USD 135 por noche por dos noches; or USD 145 por noche por una noche (+ IVA)"
+          definition: "USD 145 por noche por dos noches; or USD 155 por noche por una noche (+ IVA)"
         parana_executive_triple:
           term: "Paraná Executive (triple)"
-          definition: "USD 165 por noche por dos noches; or USD 175 por noche por una noche (+ IVA)"
+          definition: "USD 175 por noche por dos noches; or USD 185 por noche por una noche (+ IVA)"
         parana_premium_double_single:
           term: "Paraná Premium (doble/single)"
-          definition: "USD 165 por noche por dos noches; or USD 175 por noche por una noche (+ IVA)"
+          definition: "USD 175 por noche por dos noches; or USD 185 por noche por una noche (+ IVA)"
         parana_suite_double_single:
           term: "Paraná Suite (doble/single)"
-          definition: "USD 185 por noche por dos noches; or USD 195 por noche por una noche (+ IVA)"
+          definition: "USD 195 por noche por dos noches; or USD 205 por noche por una noche (+ IVA)"
       tax_info: "En Argentina el IVA es del 21%."
 
     explore:

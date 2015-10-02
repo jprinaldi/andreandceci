@@ -33,23 +33,20 @@ pt:
     stay:
       name: "Estadia"
       first: "Negociamos excelentes tarifas para os nossos convidados que quiserem ficar no %{puerto_norte_design_hotel}, um hotel cinco estrelas localizado a beira do Rio Paraná, localização esta central para o casamento e atrações da cidade. Para reservas, por favor, escrevam para Paola Alegrechy (%{email_puerto_norte}, +54 341 436-2700) e informem o código “Casamiento Cecilia y André”."
-      second: "Todas as tarifas incluem café da manhã e Wi-Fi gratuitos, bem como acesso ao spa, solarium e piscina (se a reserva for feita antes de 30 de setembro de 2015):"
+      second: "Todas as tarifas incluem café da manhã e Wi-Fi gratuitos, bem como acesso ao spa, solarium e piscina (se a reserva for feita antes de 31 de decembro de 2015):"
       room_rates:
-        parana_city_double_single:
-          term: "Paraná City (duplo/simples)"
-          definition: "USD 115 por noite, por duas noites; ou USD 125 por noite, por uma noite (+ imposto)"
         parana_executive_double_single:
           term: "Paraná Executive (duplo/simples)"
-          definition: "USD 135 por noite, por duas noites; ou USD 145 por noite, por uma noite (+ imposto)"
+          definition: "USD 145 por noite, por duas noites; ou USD 155 por noite, por uma noite (+ imposto)"
         parana_executive_triple:
           term: "Paraná Executive (triplo)"
-          definition: "USD 165 por noite, por duas noites; ou USD 175 por noite, por uma noite (+ imposto)"
+          definition: "USD 175 por noite, por duas noites; ou USD 185 por noite, por uma noite (+ imposto)"
         parana_premium_double_single:
           term: "Paraná Premium (duplo/simples)"
-          definition: "USD 165 por noite, por duas noites; ou USD 175 por noite, por uma noite (+ imposto)"
+          definition: "USD 175 por noite, por duas noites; ou USD 185 por noite, por uma noite (+ imposto)"
         parana_suite_double_single:
           term: "Paraná Suite (duplo/simples)"
-          definition: "USD 185 por noite, por duas noites; ou USD 195 por noite, por uma noite (+ imposto)"
+          definition: "USD 195 por noite, por duas noites; ou USD 205 por noite, por uma noite (+ imposto)"
       tax_info: "Imposto na Argentina é de 21%."
 
     explore:

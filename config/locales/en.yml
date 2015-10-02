@@ -54,23 +54,20 @@ en:
     stay:
       name: "Stay"
       first: "We negotiated great rates for our guests at %{puerto_norte_design_hotel}, a five-star hotel located by the Paraná River, a location central to both the city’s offerings and the wedding. To book, please call or write to Paola Alegrechy (%{email_puerto_norte}, +54 341 436-2700), and mention “Casamiento Cecilia y André”."
-      second: "All room rates include free breakfast and Wi-Fi, and access to spa, solarium and pool (if booked before Sep. 30, 2015):"
+      second: "All room rates include free breakfast and Wi-Fi, and access to spa, solarium and pool (if booked before Dec. 31, 2015):"
       room_rates:
-        parana_city_double_single:
-          term: "Paraná City (double/single)"
-          definition: "USD 115 per night for two nights; or USD 125 per night for one night (+ tax)"
         parana_executive_double_single:
           term: "Paraná Executive (double/single)"
-          definition: "USD 135 per night for two nights; or USD 145 per night for one night (+ tax)"
+          definition: "USD 145 per night for two nights; or USD 155 per night for one night (+ tax)"
         parana_executive_triple:
           term: "Paraná Executive (triple)"
-          definition: "USD 165 per night for two nights; or USD 175 per night for one night (+ tax)"
+          definition: "USD 175 per night for two nights; or USD 185 per night for one night (+ tax)"
         parana_premium_double_single:
           term: "Paraná Premium (double/single)"
-          definition: "USD 165 per night for two nights; or USD 175 per night for one night (+ tax)"
+          definition: "USD 175 per night for two nights; or USD 185 per night for one night (+ tax)"
         parana_suite_double_single:
           term: "Paraná Suite (double/single)"
-          definition: "USD 185 per night for two nights; or USD 195 per night for one night (+ tax)"
+          definition: "USD 195 per night for two nights; or USD 205 per night for one night (+ tax)"
       tax_info: "Please note that tax in Argentina is 21%."
 
     explore:
