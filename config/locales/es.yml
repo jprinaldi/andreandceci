@@ -69,7 +69,7 @@ es:
       email: "Email"
       address: "Dirección"
       phone: "Teléfono"
-      send_reply: "Send reply"
+      send_reply: "Enviar respuesta"
 
   brazil_account:
     name: "Cuenta en Brasil"
