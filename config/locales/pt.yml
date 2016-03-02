@@ -98,9 +98,9 @@ pt:
     account_holder:
       term: "Titular"
       description: "Susana Poy"
-    dni:
-      term: "D.N.I."
-      description: "14.228.245"
+    cuit:
+      term: "C.U.I.T."
+      description: " 27-14228245-9"
     bank:
       term: "Banco"
       description: "BBVA Francés"
